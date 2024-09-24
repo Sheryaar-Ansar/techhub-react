@@ -289,6 +289,500 @@ export const data = [
     },
     {
         id: 23,
+        name: 'Pico 4 Ultra',
+        price: '194,272',
+        desc: 'PICO 4 Ultra VR MR Headset 3D Wireless VR Glasses 6DOF Virtual Reality 4K Display for Steam Games Mac Windows Mobile All-in-one',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S7b35c02afe1841a88ff90457d7a9a873N/PICO-4-Ultra-VR-MR-Headset-3D-Wireless-VR-Glasses-6DOF-Virtual-Reality-4K-Display-for.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Safbd3747f4c94955921cac30afd86c4bT/PICO-4-Ultra-VR-MR-Headset-3D-Wireless-VR-Glasses-6DOF-Virtual-Reality-4K-Display-for.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sac74c7d75f4d405ab4481d6695f72e5aX/PICO-4-Ultra-VR-MR-Headset-3D-Wireless-VR-Glasses-6DOF-Virtual-Reality-4K-Display-for.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sb0bf541e628649ba81cff7e54d6973be8/PICO-4-Ultra-VR-MR-Headset-3D-Wireless-VR-Glasses-6DOF-Virtual-Reality-4K-Display-for.jpg_.webp',
+        ],
+        category: 'VR Virtual'
+    },
+    {
+        id: 24,
+        name: 'Shinecon GO2EF Xth Generation VR Glasses',
+        price: '19,105',
+        desc: 'Shinecon GO2EF Xth Generation VR Glasses RV Virtual Reality 3D Gaming For Apple vivo Huawei Oppo All-in-One Headset Smartglasses',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S6cce2a8f69504dfab1354b15cc502c151/Shinecon-GO2EF-Xth-Generation-VR-Glasses-RV-Virtual-Reality-3D-Gaming-For-Apple-vivo-Huawei-Oppo.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S947442fb8fd44ecf89403f30191728ecE/Shinecon-GO2EF-Xth-Generation-VR-Glasses-RV-Virtual-Reality-3D-Gaming-For-Apple-vivo-Huawei-Oppo.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S2b38337598534ac3aacfd6f48437ba3fv/Shinecon-GO2EF-Xth-Generation-VR-Glasses-RV-Virtual-Reality-3D-Gaming-For-Apple-vivo-Huawei-Oppo.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Secc60dfc604c42048d56d8ef02fb78a5O/Shinecon-GO2EF-Xth-Generation-VR-Glasses-RV-Virtual-Reality-3D-Gaming-For-Apple-vivo-Huawei-Oppo.jpg_.webp',
+        ],
+        category: 'VR Virtual'
+    },
+    {
+        id: 25,
+        name: 'Rokid Max AR 3D Smart Glasses',
+        price: '147,024',
+        desc: 'Rokid Max AR 3D Smart Glasses Micro OLED 215”Max screen 50° FoV Viewing For Phones/Switch/PS5/Xbox/PC VR All-in-One',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sf5da4f8335fb47279883b5df0ac3ec79w/Rokid-Max-AR-3D-Smart-Glasses-Micro-OLED-215-Max-screen-50-FoV-Viewing-For-Phones.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S9f883dcd7b3c446d9519f99203a9caa2B/Rokid-Max-AR-3D-Smart-Glasses-Micro-OLED-215-Max-screen-50-FoV-Viewing-For-Phones.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sfe59c34d5ec944378506723b55f18128n/Rokid-Max-AR-3D-Smart-Glasses-Micro-OLED-215-Max-screen-50-FoV-Viewing-For-Phones.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S19f71ad16620408fa3e8fa7ddd617e56w/Rokid-Max-AR-3D-Smart-Glasses-Micro-OLED-215-Max-screen-50-FoV-Viewing-For-Phones.jpg_.webp',
+        ],
+        category: 'VR Virtual'
+    },
+    {
+        id: 26,
+        name: 'Viar 3D Virtual Reality VR Glasses',
+        price: '6,720',
+        desc: 'Viar 3D Virtual Reality VR Glasses Headset Bluetooth Devices Helmet Lenses Goggles Smart Smartphone Phone Headphones Controllers',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sba9df75aca0c4d428fcae044b2a9b563H/Viar-3D-Virtual-Reality-VR-Glasses-Headset-Bluetooth-Devices-Helmet-Lenses-Goggles-Smart-Smartphone-Phone-Headphones.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S9d4e6dbd3c984b2b9e2a846a3557164bX/Viar-3D-Virtual-Reality-VR-Glasses-Headset-Bluetooth-Devices-Helmet-Lenses-Goggles-Smart-Smartphone-Phone-Headphones.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sadf4001047e248f6a21a4a87577937c75.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S29daa3c07d27457dac7bfc9a2faae32c4.jpg_640x640.jpg_.webp',
+        ],
+        category: 'VR Virtual'
+    },
+    {
+        id: 27,
+        name: 'Apple Vision Pro',
+        price: '973,263',
+        desc: 'Apple Vision Pro is great for travel, and when customers travel abroad, the experience will remain consistent. That means all of their apps and content will remain accessible while traveling, so they can use apps and enjoy music, TV, and movies.',
+        images: [
+            'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/vision-pro-gallery-measure-hero-202401_PF1?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1704753944575',
+            'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/vision-pro-gallery-measure-light-seal-202401_PF1?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1704753945493',
+            'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/vision-pro-gallery-measure-headband-202401_PF1?wid=2560&hei=1440&fmt=p-jpg&qlt=95&.v=1704753946106',
+            'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/vision-pro-gallery-measure-dual-loop-202401?wid=5120&hei=2880&fmt=p-jpg&qlt=95&.v=1702327482077',
+        ],
+        category: 'VR Virtual'
+    },
+    {
+        id: 28,
+        name: 'Apple AirPods 3 (3rd Gen)',
+        price: '50,934',
+        desc: 'Apple AirPods 3 (3rd Gen) Wireless EarBuds Bluetooth Headphones Lightning Charging Case 100% Original',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S102247a1022440558c79739b79cc22ed9/Apple-AirPods-3-3rd-Gen-Wireless-EarBuds-Bluetooth-Headphones-Lightning-Charging-Case-100-Original.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S196bbe49dc354a09af5a7357cba95a67k/Apple-AirPods-3-3rd-Gen-Wireless-EarBuds-Bluetooth-Headphones-Lightning-Charging-Case-100-Original.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S02d1c557dbf0455685ec8d42ed349193O/Apple-AirPods-3-3rd-Gen-Wireless-EarBuds-Bluetooth-Headphones-Lightning-Charging-Case-100-Original.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sab19ab52f29f4d77ba173039011be34cE/Apple-AirPods-3-3rd-Gen-Wireless-EarBuds-Bluetooth-Headphones-Lightning-Charging-Case-100-Original.jpg_.webp',
+        ],
+        category: 'Airpods'
+    },
+    {
+        id: 29,
+        name: 'Apple AirPods Pro 2',
+        price: '75,157',
+        desc: 'Apple AirPods Pro 2nd Generation USB‑C with MagSafe Wireless Charging Case Active Noise Cancelling Wireless Bluetooth Earphone',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sbdd547fe5a1742b2a6996b608be39313B/Apple-AirPods-Pro-2nd-Generation-USB-C-with-MagSafe-Wireless-Charging-Case-Active-Noise-Cancelling-Wireless.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S9ed82790f8bd4acfb42455ae2899f510r/Apple-AirPods-Pro-2nd-Generation-USB-C-with-MagSafe-Wireless-Charging-Case-Active-Noise-Cancelling-Wireless.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S778e8fbb1e85427082e00dd422dffdceU/Apple-AirPods-Pro-2nd-Generation-USB-C-with-MagSafe-Wireless-Charging-Case-Active-Noise-Cancelling-Wireless.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S2a31c3a5da9a4b0ab628ba84735e985aP/Apple-AirPods-Pro-2nd-Generation-USB-C-with-MagSafe-Wireless-Charging-Case-Active-Noise-Cancelling-Wireless.png_.webp',
+        ],
+        category: 'Airpods'
+    },
+    {
+        id: 30,
+        name: 'Apple AirPods 2 (2nd Gen)',
+        price: '31,366',
+        desc: '100% Original AirPods 2(2nd Generation) Wireless Ear Buds, Bluetooth Headphones with Lightning Charging Case Included',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sf848c2afa74c4b2d918389d0b35bc9d6c/100-Original-AirPods-2-2nd-Generation-Wireless-Ear-Buds-Bluetooth-Headphones-with-Lightning-Charging-Case-Included.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S56e75ce552544d02a1f9ea918ca62b43o/100-Original-AirPods-2-2nd-Generation-Wireless-Ear-Buds-Bluetooth-Headphones-with-Lightning-Charging-Case-Included.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sd5ba7056a3234dc19cc05a9aa26943f0E/100-Original-AirPods-2-2nd-Generation-Wireless-Ear-Buds-Bluetooth-Headphones-with-Lightning-Charging-Case-Included.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S681d6bab39c9437bb37f6fe5113fb65fb/100-Original-AirPods-2-2nd-Generation-Wireless-Ear-Buds-Bluetooth-Headphones-with-Lightning-Charging-Case-Included.jpg_.webp',
+        ],
+        category: 'Airpods'
+    },
+    {
+        id: 31,
+        name: '3C Founder Airpods Pro Max',
+        price: '2,747',
+        desc: '3C Founder Airpods Pro Max Wireless Bluetooth Earphones with Stereo Dual Channel TWS Digital Display 2024 Hot Sale Dropshipping',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S8436a74ed8194217855122f890dab5abG/3C-Founder-Airpods-Pro-Max-Wireless-Bluetooth-Earphones-with-Stereo-Dual-Channel-TWS-Digital-Display-2024.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sdcdf154affaa4a74b31c32fb2b8b9476b/3C-Founder-Airpods-Pro-Max-Wireless-Bluetooth-Earphones-with-Stereo-Dual-Channel-TWS-Digital-Display-2024.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sb45039fa75ec46e2a558595726d6754e9/3C-Founder-Airpods-Pro-Max-Wireless-Bluetooth-Earphones-with-Stereo-Dual-Channel-TWS-Digital-Display-2024.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S8943576dddba457aabc795ea1a45b267j/3C-Founder-Airpods-Pro-Max-Wireless-Bluetooth-Earphones-with-Stereo-Dual-Channel-TWS-Digital-Display-2024.png_.webp',
+        ],
+        category: 'Airpods'
+    },
+    {
+        id: 32,
+        name: 'Original Air Pro 6 Pods',
+        price: '3,741',
+        desc: 'Original Air Pro 6 Pods TWS Max Wireless Bluetooth Earphones In Ear Earbuds Noise Cancelling Headset For Airpodding Apple iPhone',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sd7337ebe2f014c8eaed3c2d788ec70d7N/Original-Air-Pro-6-Pods-TWS-Max-Wireless-Bluetooth-Earphones-In-Ear-Earbuds-Noise-Cancelling-Headset.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sb635c950c14241218e8bfa961747387bl/Original-Air-Pro-6-Pods-TWS-Max-Wireless-Bluetooth-Earphones-In-Ear-Earbuds-Noise-Cancelling-Headset.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sca6170cb625f4554a7645aa5068051ado/Original-Air-Pro-6-Pods-TWS-Max-Wireless-Bluetooth-Earphones-In-Ear-Earbuds-Noise-Cancelling-Headset.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sf9bbe13178f94bc39b8c6061fa8a9420y/Original-Air-Pro-6-Pods-TWS-Max-Wireless-Bluetooth-Earphones-In-Ear-Earbuds-Noise-Cancelling-Headset.jpg_.webp',
+        ],
+        category: 'Airpods'
+    },
+    {
+        id: 33,
+        name: 'M88 Bluetooth Airpods Wireless',
+        price: '2,062',
+        desc: 'Bluetooth Earphones Wireless Bluetooth Headphones and Emergency Power Case With 3 Charging Cables For Airpods/Xiaomi/Airpods Max',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S9c01be95b36545e9bced4f42ee9d0e54D/Bluetooth-Earphones-Wireless-Bluetooth-Headphones-and-Emergency-Power-Case-With-3-Charging-Cables-For-Airpods-Xiaomi.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S080354cd1592417cb5bab70d0b5014a1I/Bluetooth-Earphones-Wireless-Bluetooth-Headphones-and-Emergency-Power-Case-With-3-Charging-Cables-For-Airpods-Xiaomi.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S180c5ca999e24c45a252f65f45ecf04fy/Bluetooth-Earphones-Wireless-Bluetooth-Headphones-and-Emergency-Power-Case-With-3-Charging-Cables-For-Airpods-Xiaomi.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S6f8fde26a33142ab96ca29cfb251cdffv/Bluetooth-Earphones-Wireless-Bluetooth-Headphones-and-Emergency-Power-Case-With-3-Charging-Cables-For-Airpods-Xiaomi.png_.webp',
+        ],
+        category: 'Airpods'
+    },
+    {
+        id: 34,
+        name: 'A pair Rechargeable Wireless Airpods',
+        price: '23,153',
+        desc: 'A pair Rechargeable wireless sound hearing aid amplifier Wireless Mini Sound Amplifier for the elderly Airpod',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S34f62bf4fb324b5b9e2ae60ca9c515a4K/A-pair-Rechargeable-wireless-sound-hearing-aid-amplifier-Wireless-Mini-Sound-Amplifier-for-the-elderly-Airpod.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S84ab02e4f2c04c3796583164e8cd9c77U/A-pair-Rechargeable-wireless-sound-hearing-aid-amplifier-Wireless-Mini-Sound-Amplifier-for-the-elderly-Airpod.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S41ac8c1242f04d5f94078828d68e48c7J/A-pair-Rechargeable-wireless-sound-hearing-aid-amplifier-Wireless-Mini-Sound-Amplifier-for-the-elderly-Airpod.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S42bb0f912df54d14ac63dcbb28240bbcH/A-pair-Rechargeable-wireless-sound-hearing-aid-amplifier-Wireless-Mini-Sound-Amplifier-for-the-elderly-Airpod.jpg_.webp',
+        ],
+        category: 'Airpods'
+    },
+    {
+        id: 35,
+        name: 'TWS Wireless Earphone Sports Bluetooth',
+        price: '620',
+        desc: 'TWS Wireless Earphone Sports Bluetooth Headphones Stereo Gaming Headset LED Display Music Earbuds with Mic for Gamer All Phones',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/Se01d3868e79d4787bf9d776b075339087/TWS-Wireless-Earphone-Sports-Bluetooth-Headphones-Stereo-Gaming-Headset-LED-Display-Music-Earbuds-with-Mic-for.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S45f92aade9a24f25ac05ff1a35b47246U/TWS-Wireless-Earphone-Sports-Bluetooth-Headphones-Stereo-Gaming-Headset-LED-Display-Music-Earbuds-with-Mic-for.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S0f45ef8cc94b4900ba24a1280beffd4dX/TWS-Wireless-Earphone-Sports-Bluetooth-Headphones-Stereo-Gaming-Headset-LED-Display-Music-Earbuds-with-Mic-for.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sbec3a7ed773742898b1879357a3f84eaT/TWS-Wireless-Earphone-Sports-Bluetooth-Headphones-Stereo-Gaming-Headset-LED-Display-Music-Earbuds-with-Mic-for.jpg_.webp',
+        ],
+        category: 'Airpods'
+    },
+    {
+        id: 36,
+        name: 'Xiaomi J18 TWS Wireless Bluetooth Earphone',
+        price: '1,673',
+        desc: 'Xiaomi J18 True Wireless Bluetooth Earphone TWS Noise Cancelling Headphone HiFI Stereo Game Earbuds With Mic Waterproof Headset',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S2e16993ec4f3440c97c8750bfbf3453cL/Xiaomi-J18-True-Wireless-Bluetooth-Earphone-TWS-Noise-Cancelling-Headphone-HiFI-Stereo-Game-Earbuds-With-Mic.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sd96648ebf6504ec0811135f3cd5ec443r.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S2b0e9610f0f2494bb1245d33bc345248M.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S90f2c06f50fe4b4ea1a4aa373999520eI.jpg_640x640.jpg_.webp',
+        ],
+        category: 'Airpods'
+    },
+    {
+        id: 37,
+        name: 'TWS Wireless Earphones Bluetooth',
+        price: '859',
+        desc: 'TWS Wireless Headphones Bluetooth Earphone Sport Stereo Headset Bass Earbuds with Microphone for All Smartphone',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/See17c2b6dfbc4aee96535999c4191b79z/TWS-Wireless-Headphones-Bluetooth-Earphone-Sport-Stereo-Headset-Bass-Earbuds-with-Microphone-for-All-Smartphone.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S5a0db7979288486d914fe9c0439d29aai/TWS-Wireless-Headphones-Bluetooth-Earphone-Sport-Stereo-Headset-Bass-Earbuds-with-Microphone-for-All-Smartphone.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S4baa85c899d040f2976a40c06897138ah/TWS-Wireless-Headphones-Bluetooth-Earphone-Sport-Stereo-Headset-Bass-Earbuds-with-Microphone-for-All-Smartphone.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S08b2612269de4946b1a883c4b278c614c/TWS-Wireless-Headphones-Bluetooth-Earphone-Sport-Stereo-Headset-Bass-Earbuds-with-Microphone-for-All-Smartphone.jpg_.webp',
+        ],
+        category: 'Airpods'
+    },
+    {
+        id: 38,
+        name: 'Waterproof Bluetooth Wireless Earbuds',
+        price: '7,073',
+        desc: '20 Hours Play time Swimming Waterproof Bluetooth Earphone Dual Wear Style Sport Wireless Headset TWS Ipx7 Earbuds Stereo',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/H29071f7d8fa84fef83a9fdbb5ebcecaeY/20-Hours-Play-time-Swimming-Waterproof-Bluetooth-Earphone-Dual-Wear-Style-Sport-Wireless-Headset-TWS-Ipx7.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/H88840577069049c7ab051b0d1d9bd3d9R.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Hea1fddfdc2be4c0caa7a5683bb49efc0f.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/H40c46d93797c4085836ac814495b9e31q.jpg_640x640.jpg_.webp',
+        ],
+        category: 'Airpods'
+    },
+    {
+        id: 39,
+        name: 'Disney Marvel Earbuds',
+        price: '5,525',
+        desc: 'Disney Marvel Earbuds Metal Gaming Wireless Headphones Bluetooth Earphones Long Standby Earbuds HiFi Stereo Headset',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S954bd50e6cbb4ceab2fb618b3a70a1bfO.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S954bd50e6cbb4ceab2fb618b3a70a1bfO.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sc4e8f6660f7c47859a533b9c2d1c94c5O/Disney-Marvel-Earbuds-Metal-Gaming-Wireless-Headphones-Bluetooth-Earphones-Long-Standby-Earbuds-HiFi-Stereo-Headset.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S286737ecf9814e70b9dbd3cc651193ddp/Disney-Marvel-Earbuds-Metal-Gaming-Wireless-Headphones-Bluetooth-Earphones-Long-Standby-Earbuds-HiFi-Stereo-Headset.jpg_.webp',
+        ],
+        category: 'Airpods'
+    },
+    {
+        id: 40,
+        name: 'XIAOMI A10 Pro ENC TWS',
+        price: '2,785',
+        desc: 'XIAOMI A10 Pro ENC TWS Wireless Earphones Bluetooth5.4 Touch Screen Headphones Noise Cancelling Earbuds With Mic For Android iOS',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S82b1ebfb602f4394805f61ea0566ccd5b.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S932967a5a9d64231915b13e3e1db3675d/XIAOMI-A10-Pro-ENC-TWS-Wireless-Earphones-Bluetooth5-4-Touch-Screen-Headphones-Noise-Cancelling-Earbuds-With.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sf9989d8e23ca4733a4ed8c16bb45a195q/XIAOMI-A10-Pro-ENC-TWS-Wireless-Earphones-Bluetooth5-4-Touch-Screen-Headphones-Noise-Cancelling-Earbuds-With.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S75edd54aaca343039fb1483edff95988a/XIAOMI-A10-Pro-ENC-TWS-Wireless-Earphones-Bluetooth5-4-Touch-Screen-Headphones-Noise-Cancelling-Earbuds-With.jpg_.webp',
+        ],
+        category: 'Airpods'
+    },
+    {
+        id: 41,
+        name: 'BYONE Dual Screen Gaming Laptop',
+        price: '207,026',
+        desc: 'BYONE Dual Screen Gaming Laptop Intel Core i9-10885H 14 Inch Touch Screen Laptop 16GB RAM 2TB SSD',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sfa44da09233746a0b823ca51b6330377K/BYONE-Dual-Screen-Gaming-Laptop-Intel-Core-i9-10885H-16-inch-14-Inch-Touch-Screen-Laptop.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sc44a4a6137e84c4b8dc33542bf796695U/BYONE-Dual-Screen-Gaming-Laptop-Intel-Core-i9-10885H-16-inch-14-Inch-Touch-Screen-Laptop.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S3aadeff64b9e4a81809e77b26d67edb9T/BYONE-Dual-Screen-Gaming-Laptop-Intel-Core-i9-10885H-16-inch-14-Inch-Touch-Screen-Laptop.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Se8f09d6eab65419bb453a239ccf2d09eS/BYONE-Dual-Screen-Gaming-Laptop-Intel-Core-i9-10885H-16-inch-14-Inch-Touch-Screen-Laptop.jpg_.webp',
+        ],
+        category: 'Laptop'
+    },
+    {
+        id: 42,
+        name: 'LeoBook 13 Laptop',
+        price: '42,345',
+        desc: 'Adreamer Laptop 8GB RAM 1TB SSD Computer 13.3-inch Intel Notebook 2560X1600 Resolution Celeron N4020 Portable Computer',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sc183242d0c5d4185a81f5babf1a9d9bbW/Adreamer-Laptop-8GB-RAM-1TB-SSD-Computer-13-3-inch-Intel-Notebook-2560X1600-Resolution-Celeron-N4020.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sbb82c6bb4c894a008d5f9c16394f2d4ch/Adreamer-Laptop-8GB-RAM-1TB-SSD-Computer-13-3-inch-Intel-Notebook-2560X1600-Resolution-Celeron-N4020.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S33b227d69fb94075963ac78d9d92392dv/Adreamer-Laptop-8GB-RAM-1TB-SSD-Computer-13-3-inch-Intel-Notebook-2560X1600-Resolution-Celeron-N4020.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S382d181214b348ff8f2165ddb9767fb0Q/Adreamer-Laptop-8GB-RAM-1TB-SSD-Computer-13-3-inch-Intel-Notebook-2560X1600-Resolution-Celeron-N4020.png_.webp',
+        ],
+        category: 'Laptop'
+    },
+    {
+        id: 43,
+        name: 'BEEX Dualscreen Laptop',
+        price: '95,919',
+        desc: 'BEEX Dualscreen Laptop | Windows 11 Pro | 16GB RAM | 512 GB NVMe | Multi-Language Support | Portable Solution for Creativity, Work & Entertainment',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S3a02dd4264394d56aba7230de9cac66a2/BEEX-Dualscreen-Laptop-Windows-11-Pro-Multi-Language-Support-Portable-Solution-for-Creativity-Work-Entertainment.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sf21c47af0fc4496ba77462aa9ea64e72g/BEEX-Dualscreen-Laptop-Windows-11-Pro-Multi-Language-Support-Portable-Solution-for-Creativity-Work-Entertainment.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S78ef9265e68942fc8e30761291318cf2V/BEEX-Dualscreen-Laptop-Windows-11-Pro-Multi-Language-Support-Portable-Solution-for-Creativity-Work-Entertainment.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S35e604bf747e4ca5b36d9ca67fa30030j/BEEX-Dualscreen-Laptop-Windows-11-Pro-Multi-Language-Support-Portable-Solution-for-Creativity-Work-Entertainment.jpg_.webp',
+        ],
+        category: 'Laptop'
+    },
+    {
+        id: 44,
+        name: 'HP Gaming Laptop',
+        price: '153,027',
+        desc: '15.6 Inch Gaming Laptop Cheap 1920x1080 Intel I7 4500u Quad Core 8GB RAM 1TB SSD Windows 10 Computer',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S1add9b1ad4814ec299880664d062cd8cv/15-6-Inch-Gaming-Laptop-Cheap-1920x1080-Intel-I7-4500u-Quad-Core-8GB-RAM-128GB-256GB.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sc179743774df4e2ea18c0d94dd1e0364C/15-6-Inch-Gaming-Laptop-Cheap-1920x1080-Intel-I7-4500u-Quad-Core-8GB-RAM-128GB-256GB.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S3d81539f598a4f83b08a0e9a36988a3df/15-6-Inch-Gaming-Laptop-Cheap-1920x1080-Intel-I7-4500u-Quad-Core-8GB-RAM-128GB-256GB.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S2112f483421444b289feae544a5ca547P/15-6-Inch-Gaming-Laptop-Cheap-1920x1080-Intel-I7-4500u-Quad-Core-8GB-RAM-128GB-256GB.jpg_.webp',
+        ],
+        category: 'Laptop'
+    },
+    {
+        id: 45,
+        name: 'CHUWI GemiBook XPro Laptop',
+        price: '69,921',
+        desc: 'CHUWI GemiBook XPro Laptop Intel N100 Graphics 600 GPU 14.1-inch Screen 8GB RAM 256GB SSD With Cooling Fan Windows 11 Notebook',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sf44c81f8d3f94dfebcfaa578a12c5ba1k/CHUWI-GemiBook-XPro-Laptop-Intel-N100-Graphics-600-GPU-14-1-inch-Screen-8GB-RAM-256GB.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S8dc45b01f3fd484489a660d99f23444d5/CHUWI-GemiBook-XPro-Laptop-Intel-N100-Graphics-600-GPU-14-1-inch-Screen-8GB-RAM-256GB.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S6a31b072e9a54143a77dcac83a6f7454z/CHUWI-GemiBook-XPro-Laptop-Intel-N100-Graphics-600-GPU-14-1-inch-Screen-8GB-RAM-256GB.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S395ba24d59f741eab015827fe6ee1bf7k/CHUWI-GemiBook-XPro-Laptop-Intel-N100-Graphics-600-GPU-14-1-inch-Screen-8GB-RAM-256GB.jpg_.webp',
+        ],
+        category: 'Laptop'
+    },
+    {
+        id: 46,
+        name: 'AMD R3 Gaming Laptop',
+        price: '110,582',
+        desc: 'Gaming Laptop 15.6 Inch AMD R3 2200U 16GB RAM 1TB SSD Fingerprint Unlock DDR4 Windows 11 Blacklit Keypad Portable Notebook',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sc1d1613f5ade4ad9afe411e1d6baedbey/Gaming-Laptop-15-6-Inch-AMD-R3-2200U-32GB-RAM-2TB-SSD-Fingerprint-Unlock-DDR4-Windows.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S121390a211d44e2f9f1523d511c6bd22p/Gaming-Laptop-15-6-Inch-AMD-R3-2200U-32GB-RAM-2TB-SSD-Fingerprint-Unlock-DDR4-Windows.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sd01b2565f8634bea88dcc1752c2e3cb1S/Gaming-Laptop-15-6-Inch-AMD-R3-2200U-32GB-RAM-2TB-SSD-Fingerprint-Unlock-DDR4-Windows.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sfd30bd76e8cf489cbfb8d101fd4e8af9y/Gaming-Laptop-15-6-Inch-AMD-R3-2200U-32GB-RAM-2TB-SSD-Fingerprint-Unlock-DDR4-Windows.jpg_.webp',
+        ],
+        category: 'Laptop'
+    },
+    {
+        id: 47,
+        name: 'ASLAY 16`Inch Gaming Laptop',
+        price: '318,481',
+        desc: 'Gaming Laptop 16 inch Intel Core i9-12900H NVIDIA RTX 4060 8G 64GB RMD 4TB SSD DDR4 Windows 11 HD Camera WiFi6 Portable Computer',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sac2e4f085dad4f0db4575f8afdd568f7s/Gaming-Laptop-16-inch-Intel-Core-i9-12900H-NVIDIA-RTX-4060-8G-64GB-RMD-4TB-SSD.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S0a067a95d21445669641c8693811ebc0z/Gaming-Laptop-16-inch-Intel-Core-i9-12900H-NVIDIA-RTX-4060-8G-64GB-RMD-4TB-SSD.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S72b0fc4e6a084b85a430bfa4d728974dl/Gaming-Laptop-16-inch-Intel-Core-i9-12900H-NVIDIA-RTX-4060-8G-64GB-RMD-4TB-SSD.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S6967322c90c14163ba2ac78c6507a824h/Gaming-Laptop-16-inch-Intel-Core-i9-12900H-NVIDIA-RTX-4060-8G-64GB-RMD-4TB-SSD.jpg_.webp',
+        ],
+        category: 'Laptop'
+    },
+    {
+        id: 48,
+        name: 'ASLAY 17`Inch Gaming Laptop',
+        price: '207,565',
+        desc: 'Intel Core i9-10885H 16.1 inch Gaming Laptop GTX1650 4G Win 11 64GB DDR4 4TB SSD 8 Cores 12 Threads 4.8GHz designer Notebook',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S09f2bf78b56341239ad4ee785e35d3453/Intel-Core-i9-10885H-16-1-inch-Gaming-Laptop-GTX1650-4G-Win-11-64GB-DDR4-4TB.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Scad5db34839f4626acdd5334f69e63b7c/Intel-Core-i9-10885H-16-1-inch-Gaming-Laptop-GTX1650-4G-Win-11-64GB-DDR4-4TB.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S782924482c894ff6a195dec5cddefb33y/Intel-Core-i9-10885H-16-1-inch-Gaming-Laptop-GTX1650-4G-Win-11-64GB-DDR4-4TB.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sc6c405b2febc438cacde8fcbac9194b32/Intel-Core-i9-10885H-16-1-inch-Gaming-Laptop-GTX1650-4G-Win-11-64GB-DDR4-4TB.jpg_.webp',
+        ],
+        category: 'Laptop'
+    },
+    {
+        id: 49,
+        name: 'Topton L8 New Gaming Laptop',
+        price: '236,484',
+        desc: 'Topton L8 New Gaming Laptop i9 12900H i7 NVIDIA RTX 3060 6G 16 inch 165Hz IPS Windows 11 PCIE4.0 Notebook Gamebook WiFi6 BT5.2',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S12584bf6aca34b83a28644547c308804i/Topton-L8-New-Gaming-Laptop-i9-12900H-i7-NVIDIA-RTX-3060-6G-16-inch-165Hz-IPS.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S20fe646a1e134fad866114628bc7640bC/Topton-L8-New-Gaming-Laptop-i9-12900H-i7-NVIDIA-RTX-3060-6G-16-inch-165Hz-IPS.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sc5f0eb8ee654453fa67de9d7feac46fdn/Topton-L8-New-Gaming-Laptop-i9-12900H-i7-NVIDIA-RTX-3060-6G-16-inch-165Hz-IPS.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sdd4dcffe1e8e4f61ad629e138f83abeaG/Topton-L8-New-Gaming-Laptop-i9-12900H-i7-NVIDIA-RTX-3060-6G-16-inch-165Hz-IPS.jpg_.webp',
+        ],
+        category: 'Laptop'
+    },
+    {
+        id: 50,
+        name: 'PA156 Gaming RGB Backlit Keyboard Laptop',
+        price: '67,289',
+        desc: 'PA156 Laptop Computer 15.6" Intel N5095 Win10 16GB 128GB Notebook Netbook Backlit Keyboard WIFI HD BT4.0 USB3.0 3.0MP',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/Hba82f504de064a53937cfdca98ee1297E/PA156-Laptop-Computer-15-6-Intel-N5095-Win10-16G-128G-256G-512G-Notebook-Netbook-Backlit-Keyboard.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/H1b8492fd7eac4bfb8cf5b921b2234a15q/PA156-Laptop-Computer-15-6-Intel-N5095-Win10-16G-128G-256G-512G-Notebook-Netbook-Backlit-Keyboard.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/H5a30b131f2ca40c8857015c69bfea4e4P/PA156-Laptop-Computer-15-6-Intel-N5095-Win10-16G-128G-256G-512G-Notebook-Netbook-Backlit-Keyboard.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/H62d2a6757ee24ce394976ff3ee979e212/PA156-Laptop-Computer-15-6-Intel-N5095-Win10-16G-128G-256G-512G-Notebook-Netbook-Backlit-Keyboard.jpg_.webp',
+        ],
+        category: 'Laptop'
+    },
+    {
+        id: 51,
+        name: 'Dual Screen Backlit Laptop',
+        price: '112,794',
+        desc: '15.6"+7" Dual Screen Laptop Intel Celeron N100 16GB DDR4 1TB SSD RGB Backlit Keyboard Computer Notebook Laptops Touch Screen',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S970a700908b1414fa2331eabc8bf86d8x/15-6-7-Dual-Screen-Laptop-Intel-Celeron-N100-32GB-16GB-DDR4-RGB-Backlit-Keyboard-Computer.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sbf7442ad92cf4d3d88dd5969829dc083M/15-6-7-Dual-Screen-Laptop-Intel-Celeron-N100-32GB-16GB-DDR4-RGB-Backlit-Keyboard-Computer.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Scabd8b5c3e914d3c830a7a2d741e00bbc/15-6-7-Dual-Screen-Laptop-Intel-Celeron-N100-32GB-16GB-DDR4-RGB-Backlit-Keyboard-Computer.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Scabd8b5c3e914d3c830a7a2d741e00bbc/15-6-7-Dual-Screen-Laptop-Intel-Celeron-N100-32GB-16GB-DDR4-RGB-Backlit-Keyboard-Computer.jpg_.webp',
+        ],
+        category: 'Laptop'
+    },
+    {
+        id: 52,
+        name: 'D18 Smart Watch',
+        price: '1,020',
+        desc: 'D18 Smart Watch Men Women Smartwatch Blood Pressure Waterproof Digital Watches Sports Fitness Tracker Watch for apple watch band',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S6f306225289047de9e38061f07f5c3f1a/D18-Smart-Watch-Men-Women-Smartwatch-Blood-Pressure-Waterproof-Digital-Watches-Sports-Fitness-Tracker-Watch-for.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sbc11c4557763450fb06f2a8abd6ec3adV.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S16b257791987456c85738c07d6f0820eF.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S12e30b1abee64d3f95fcf40aba4f6cf75.jpg_640x640.jpg_.webp',
+        ],
+        category: 'Smart Watches'
+    },
+    {
+        id: 53,
+        name: 'M8 Smart Watch',
+        price: '900',
+        desc: 'M8 Smart Watch Notification Fitness Waterproof Watch Exercise Pedometer Bluetooth Photo Call Reminder Watch For Men Women',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sa58ce25228564a6cba01c6cdd722d09fS/M8-Smart-Watch-Notification-Fitness-Waterproof-Watch-Exercise-Pedometer-Bluetooth-Photo-Call-Reminder-Watch-For-Men.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S4e239c31e59443259d9bd52c25a447fcP.png_640x640.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S074bdf71870e499bbf76c19352f8e4edW.png_640x640.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S28158e156907451d93e34e848c994bbfC.png_640x640.png_.webp',
+        ],
+        category: 'Smart Watches'
+    },
+    {
+        id: 54,
+        name: 'Huawei Watch 4 Pro',
+        price: '11,792',
+        desc: '2024 New Original for Huawei Watch 4 Pro Men GPS Sports Fitness Tracker AOMLED HD Screen NFC Bluetooth Call smart watch Business',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S776ae91ec9ec411bbf55620922042aceH/2024-New-Original-for-Huawei-Watch-4-Pro-Men-GPS-Sports-Fitness-Tracker-AOMLED-HD-Screen.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S20523f78b81948a196cde392b29287397.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S6489cd22d00a40399bedc50d4a4a586fb.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S233c489f09ed436c8e16671f23f92ab9D.jpg_640x640.jpg_.webp',
+        ],
+        category: 'Smart Watches'
+    },
+    {
+        id: 55,
+        name: 'Samsung Galaxy Watch 6 2024',
+        price: '2,210',
+        desc: 'For Samsung Galaxy Watch 6 2024 New GPS Track Smart Watch Men Amoled Always Display Body Temperature Clock BT Talk Smart Watch',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S98caa387ebb6417ca22a207d92bf7bbep/For-Samsung-Galaxy-Watch-6-2024-New-GPS-Track-Smart-Watch-Men-Amoled-Always-Display-Body.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S6894bf372a3a4074807ffd3548aa4c8aV.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S14e0d92c35c048eb8af802c3395cf51cI.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S37996b057f5948d3824fcd9c6c066c3dH.jpg_640x640.jpg_.webp',
+        ],
+        category: 'Smart Watches'
+    },
+    {
+        id: 56,
+        name: 'Samsung Galaxy Watch 7 Ultra',
+        price: '10,076',
+        desc: 'For Samsung Galaxy Watch 7 Ultra GPS Compass NFC Smart Watch Outdoor Sports Man AMOLED BT Call IP68 Galaxy 6 Upgraded Smartwatch',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/S96f16fc4becd4d0bb6c8ec8d33527667G/For-Samsung-Galaxy-Watch-7-Ultra-GPS-Compass-NFC-Smart-Watch-Outdoor-Sports-Man-AMOLED-BT.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S1769825892d44ac4b58e4173511673a8Q.png_640x640.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sde2ed1091bfa424e9c60981b4162abe5R.png_640x640.png_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sb3292bc561ff49f2a0d7691d6019beb8u.png_640x640.png_.webp',
+        ],
+        category: 'Smart Watches'
+    },
+    {
+        id: 57,
+        name: 'New Smart Watch GT4',
+        price: '3,096',
+        desc: 'New GPS Smart Watch GT4 for Men Women AMOLED 360*360 HD Screen Heart Rate DIY Face Bluetooth Call SmartWatch NFC GT4 Pro 2024',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sf92375a3cfb34f0ebb5a270613db8dbeA/New-GPS-Smart-Watch-GT4-for-Men-Women-AMOLED-360-360-HD-Screen-Heart-Rate-DIY.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sa7317e5104174e43911574e751ce1d56w.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sa1741da5fcc04e07bcc909347b4f59398.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S7c8a1341641f478c922296070051fa53s.jpg_640x640.jpg_.webp',
+        ],
+        category: 'Smart Watches'
+    },
+    {
+        id: 58,
+        name: 'Xiaomi 4G Kids Smartwatch',
+        price: '3,335',
+        desc: 'Xiaomi 4G Kids Smartwatch SOS Wifi GPS Location Video Call Analogue Card Smartwatch Camera Waterproof School Electronic Watch',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sb248d2bd4a6741bda4752f6f8e9dd167I/Xiaomi-4G-Kids-Smartwatch-SOS-Wifi-GPS-Location-Video-Call-Analogue-Card-Smartwatch-Camera-Waterproof-School.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S91ba7ffd425343fdb188708298fc7c49Q.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S4ccfec544cab483f8fcc9aa189db0dc3T.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S717a5c85291d4f61b371dbb01a5e2a99z.jpg_640x640.jpg_.webp',
+        ],
+        category: 'Smart Watches'
+    },
+    {
+        id: 59,
+        name: '2024 New Rugged Military Smart Watch',
+        price: '5,058',
+        desc: '2024 New Rugged Military Smart Watch Men AMOLED Screen Heart Rate Bluetooth Call Waterproof Outdoor SmartWatch For Android IOS',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sca4141b730074badbce5de98e0fa4437C/2024-New-Rugged-Military-Smart-Watch-Men-AMOLED-Screen-Heart-Rate-Bluetooth-Call-Waterproof-Outdoor-SmartWatch.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S4462c53af9164c5da9967c0c98dc8c92O.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/Sbef94f4637d24400a5e8fc3ab355eb93g.jpg_640x640.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S2473195dcd454231b0f8cd89c1e10321Y.jpg_640x640.jpg_.webp',
+        ],
+        category: 'Smart Watches'
+    },
+    {
+        id: 60,
+        name: 'New Y56 Smart Watch',
+        price: '720',
+        desc: 'New Y56 Smart Watch Women Men Lady Sport Fitness Tracker Smartwatch Sleep Heart Rate Monitor Sports Watches for Android and Ios',
+        images: [
+            'https://ae-pic-a1.aliexpress-media.com/kf/Saa51c48f484c46ecb23c7388856712e2Q/New-Y56-Smart-Watch-Women-Men-Lady-Sport-Fitness-Tracker-Smartwatch-Sleep-Heart-Rate-Monitor-Sports.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S0fc520ec16a54d05b39980de087f12a18/New-Y56-Smart-Watch-Women-Men-Lady-Sport-Fitness-Tracker-Smartwatch-Sleep-Heart-Rate-Monitor-Sports.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S6eab1ac71e504cf18b59065d87fbc823G/New-Y56-Smart-Watch-Women-Men-Lady-Sport-Fitness-Tracker-Smartwatch-Sleep-Heart-Rate-Monitor-Sports.jpg_.webp',
+            'https://ae-pic-a1.aliexpress-media.com/kf/S2bf5da6e79ec454aa1daf03788a4991e3/New-Y56-Smart-Watch-Women-Men-Lady-Sport-Fitness-Tracker-Smartwatch-Sleep-Heart-Rate-Monitor-Sports.jpg_.webp',
+        ],
+        category: 'Smart Watches'
+    },
+    {
+        id: 61,
         name: '',
         price: '',
         desc: '',
@@ -298,7 +792,123 @@ export const data = [
             '',
             '',
         ],
-        category: ''
-    }
-    
+        category: 'Gadgets'
+    },
+    {
+        id: 62,
+        name: '',
+        price: '',
+        desc: '',
+        images: [
+            '',
+            '',
+            '',
+            '',
+        ],
+        category: 'Gadgets'
+    },
+    {
+        id: 63,
+        name: '',
+        price: '',
+        desc: '',
+        images: [
+            '',
+            '',
+            '',
+            '',
+        ],
+        category: 'Gadgets'
+    },
+    {
+        id: 64,
+        name: '',
+        price: '',
+        desc: '',
+        images: [
+            '',
+            '',
+            '',
+            '',
+        ],
+        category: 'Gadgets'
+    },
+    {
+        id: 65,
+        name: '',
+        price: '',
+        desc: '',
+        images: [
+            '',
+            '',
+            '',
+            '',
+        ],
+        category: 'Gadgets'
+    },
+    {
+        id: 66,
+        name: '',
+        price: '',
+        desc: '',
+        images: [
+            '',
+            '',
+            '',
+            '',
+        ],
+        category: 'Gadgets'
+    },
+    {
+        id: 67,
+        name: '',
+        price: '',
+        desc: '',
+        images: [
+            '',
+            '',
+            '',
+            '',
+        ],
+        category: 'Gadgets'
+    },
+    {
+        id: 68,
+        name: '',
+        price: '',
+        desc: '',
+        images: [
+            '',
+            '',
+            '',
+            '',
+        ],
+        category: 'Gadgets'
+    },
+    {
+        id: 69,
+        name: '',
+        price: '',
+        desc: '',
+        images: [
+            '',
+            '',
+            '',
+            '',
+        ],
+        category: 'Gadgets'
+    },
+    {
+        id: 70,
+        name: '',
+        price: '',
+        desc: '',
+        images: [
+            '',
+            '',
+            '',
+            '',
+        ],
+        category: 'Gadgets'
+    },  
 ]
