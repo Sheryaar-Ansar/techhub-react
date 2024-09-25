@@ -15,10 +15,11 @@ export const cartSlices = createSlice({
             }else{
                 state.push(action.payload)
             }
+            console.log(action);
             
         },
         removeCart: (state, action) => {
-            state.filter((item)=>item.id !== action.payload)
+            return state.filter((item)=>item.id !== action.payload)
         },
         cartIncrement: (state, action) => {
             return state.map((item)=>item.id===action.payload.id ? {...item, qty: item.qty + 1} : item)

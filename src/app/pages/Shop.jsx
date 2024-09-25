@@ -11,6 +11,10 @@ const Shop = () => {
     const active = useSelector((state)=>state.slider.slider)
     const mode = useSelector((state)=>state.mode.mode)
     const dispatch = useDispatch()
+    const totalItems = cartItems.reduce((totalQty, item)=>totalQty + item.qty, 0);
+    const totalQty = cartItems.reduce((total, item)=>total + item.qty * item.price, 0);
+    console.log(totalQty);
+    
     
     return (
         <div>
@@ -41,6 +45,8 @@ const Shop = () => {
                             name={cart.name}
                             price={cart.price}
                             qty={cart.qty}
+                            totalItems={totalItems}
+                            totalQty={totalQty}
                         />
                     )
                 })}

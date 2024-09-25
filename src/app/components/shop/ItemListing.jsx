@@ -8,7 +8,7 @@ const ItemListing = ({img, name, price, id}) => {
       <div key={id}>
         <img src={img} alt={name} className='max-w-[400px] '/>
         <h1>{name}</h1>
-        <button onClick={()=>dispatch(addtoCart({id: id, name, price, img, qty: 1}))}>Add To Cart</button>
+        <button onClick={()=>dispatch(addtoCart({id: id, name, price: Number(price.replace(/,/g,'')), img, qty: 1}))}>Add To Cart</button>
       </div>
   )
 }
