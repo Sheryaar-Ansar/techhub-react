@@ -12,7 +12,7 @@ const Toggle = () => {
     const dispatch = useDispatch()
 
   return (
-    <button onClick={()=>dispatch(handleToggle())} className={`absolute top-6 right-6 h-7 w-14 ${!mode ? 'bg-cover bg-center' : 'bg-cover bg-center'} rounded-2xl transition-all duration-600`} style={!mode ? {backgroundImage: `url(${day})`} : {backgroundImage: `url(${dark})`}}>
+    <button onClick={()=>dispatch(handleToggle())} className={`h-7 w-14 ${!mode ? 'bg-cover bg-center' : 'bg-cover bg-center'} rounded-2xl transition-all duration-600`} style={!mode ? {backgroundImage: `url(${day})`} : {backgroundImage: `url(${dark})`}}>
         <div className={`relative h-5 w-5 rounded-full bg-white transform transition-transform ${!mode ? 'translate-x-1' : 'translate-x-8'} ${!mode ? 'bg-cover bg-center' : 'bg-gray-700 bg-cover bg-center'} transition-all duration-500`} style={!mode ? {backgroundImage: `url(${sun})`} : {backgroundImage: `url(${moon})`}}>
             
         </div>

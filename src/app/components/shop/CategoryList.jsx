@@ -21,17 +21,19 @@ const CategoryList = () => {
   }, [])
   return (
     <div>
-      <div className=''>
-        Categories
-        <div>
-          <h1 onClick={toggleExpand} className='flex items-center cursor-pointer'>Shop By Category<span><IoIosArrowForward className={`${!expand ? 'rotate-0' : 'rotate-90'} transition-transform duration-300`} /></span> </h1>
+      <div className='px-3'>
+        <h1 className='text-2xl font-bold'>Filters</h1>
+        <hr className='py-5 mt-3'/>
+        <div className='px-5'>
+          <h1 onClick={toggleExpand} className='flex items-center cursor-pointer'>Shop By Category<span><IoIosArrowForward className={`${!expand ? 'rotate-0' : 'rotate-90'} transition-transform duration-300 ml-3`} /></span> </h1>
+          <hr className={`${expand ? 'hidden' : 'flex'} mt-3`}/>
           <div className={`absolute ${!expand ? '-top-96' : 'top-30'}`}>
-            <div>
+            <div className='mt-6'>
               <label htmlFor="All"><input type="radio" id='All' name='Category' onClick={() => dispatch(setCategory('All'))} />All</label>
             </div>
             <div>
               {categories.map((category, index) => (
-                <label className='block' htmlFor={category} key={index}><input type="radio" id={category} name={'Category'} onClick={() => dispatch(setCategory(category))} />{category}</label>
+                <label className='block pt-2' htmlFor={category} key={index}><input type="radio" id={category} name={'Category'} onClick={() => dispatch(setCategory(category))} />{category}</label>
               ))}
             </div>
           </div>

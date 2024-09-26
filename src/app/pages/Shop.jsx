@@ -8,7 +8,7 @@ import { useSelector } from 'react-redux';
 const Shop = () => {
     const category = useSelector((state) => state.category.category)
     return (
-        <div className='mx-auto max-w-screen-2xl'>
+        <div className='mx-auto max-w-screen-2xl mt-[70px] pt-[100px]'>
             <div className='w-full h-full gap-10 pb-20 flex'>
                 {/* Category Section */}
                 <div className='w-[25%]'>
@@ -26,7 +26,7 @@ const Shop = () => {
                                 return category === product.category
                             }
                         }).map((product) => (
-                            <div className='m-3'>
+                            <div className='m-3' key={product.id}>
                                 <ItemListing
                                     img={product.images[0]}
                                     name={product.name}

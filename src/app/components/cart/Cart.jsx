@@ -30,6 +30,7 @@ const Cart = () => {
                                 name={cart.name}
                                 price={cart.price}
                                 qty={cart.qty}
+                                key={cart.id}
                             />
                         )
                     })}

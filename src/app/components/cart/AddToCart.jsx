@@ -7,6 +7,7 @@ import { MdDelete } from 'react-icons/md'
 
 const AddToCart = ({ id, img, name, price, qty }) => {
     const dispatch = useDispatch();
+    const mode = useSelector((state)=>state.mode.mode)
     return (
         <div className='relative px-3'>
             <div className='z-40 relative'>
@@ -21,9 +22,9 @@ const AddToCart = ({ id, img, name, price, qty }) => {
                         <div className='flex '>
                             <p className='text-green-500 text-[16px]'>{price.toLocaleString()} -/PKR</p>
                             <div className='flex justify-center items-center gap-1 absolute right-7'>
-                                <AiOutlineMinus onClick={() => dispatch(qty > 1 ? cartDecrement({ id: id }) : dispatch(removeCart(id)))} className='border-2 border-gray-600 text-gray-600 hover:text-white hover:bg-green-500 hover:border-none rounded-md p-1 text-md transition-all cursor-pointer' />
+                                <AiOutlineMinus onClick={() => dispatch(qty > 1 ? cartDecrement({ id: id }) : dispatch(removeCart(id)))} className={`border-2 border-gray-600 text-gray-600 ${mode && 'text-white'} hover:text-white hover:bg-green-500 hover:border-none rounded-md p-1 text-md transition-all cursor-pointer`} />
                                 <span>{qty}</span>
-                                <AiOutlinePlus onClick={() => qty >= 1 ? dispatch(cartIncrement({ id: id })) : qty = 0} className='border-2 border-gray-600 text-gray-600 hover:text-white hover:bg-green-500 hover:border-none rounded-md p-1 text-md transition-all cursor-pointer' />
+                                <AiOutlinePlus onClick={() => qty >= 1 ? dispatch(cartIncrement({ id: id })) : qty = 0} className={`border-2 border-gray-600 text-gray-600 ${mode && 'text-white'} hover:text-white hover:bg-green-500 hover:border-none rounded-md p-1 text-md transition-all cursor-pointer`} />
                                 <MdDelete onClick={() => dispatch(removeCart(id))} className='text-red-600 cursor-pointer text-md' />
 
                             </div>
