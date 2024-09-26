@@ -8,23 +8,24 @@ import { MdDelete } from 'react-icons/md'
 const AddToCart = ({ id, img, name, price, qty }) => {
     const dispatch = useDispatch();
     return (
-        <div className='relative'>
-            <div className='z-50'>
+        <div className='relative px-3'>
+            <div className='z-40 relative'>
                 <div key={id} className='flex mb-4 shadow-md'>
                     <div>
                         <img src={img} alt={name} className='w-[60px] h-[60px] rounded-md' />
                     </div>
-                    <div>
+                    <div className='pl-2'>
                         <div className='flex justify-between items-center w-full'>
-                            <h1>{name}</h1>
-                            <MdDelete  onClick={()=>dispatch(removeCart(id))} className='text-red-600 cursor-pointer absolute right-3 top-7 text-md' />
+                            <h1 className='text-[16px] font-medium'>{name}</h1>
                         </div>
-                        <div className='flex'>
-                            <p>{price.toLocaleString()} -/PKR</p>
+                        <div className='flex '>
+                            <p className='text-green-500 text-[16px]'>{price.toLocaleString()} -/PKR</p>
                             <div className='flex justify-center items-center gap-1 absolute right-7'>
-                                <AiOutlineMinus onClick={() => dispatch(qty > 1 ? cartDecrement({ id: id }) : dispatch(removeCart(id)))} className='border-2 border-gray-600 text-gray-600 hover:text-white hover:bg-green-500 hover:border-none rounded-md p-1 text-xl transition-all cursor-pointer' />
+                                <AiOutlineMinus onClick={() => dispatch(qty > 1 ? cartDecrement({ id: id }) : dispatch(removeCart(id)))} className='border-2 border-gray-600 text-gray-600 hover:text-white hover:bg-green-500 hover:border-none rounded-md p-1 text-md transition-all cursor-pointer' />
                                 <span>{qty}</span>
-                                <AiOutlinePlus onClick={() => qty >= 1 ? dispatch(cartIncrement({ id: id })) : qty = 0} className='border-2 border-gray-600 text-gray-600 hover:text-white hover:bg-green-500 hover:border-none rounded-md p-1 text-xl transition-all cursor-pointer' />
+                                <AiOutlinePlus onClick={() => qty >= 1 ? dispatch(cartIncrement({ id: id })) : qty = 0} className='border-2 border-gray-600 text-gray-600 hover:text-white hover:bg-green-500 hover:border-none rounded-md p-1 text-md transition-all cursor-pointer' />
+                                <MdDelete onClick={() => dispatch(removeCart(id))} className='text-red-600 cursor-pointer text-md' />
+
                             </div>
                         </div>
                     </div>

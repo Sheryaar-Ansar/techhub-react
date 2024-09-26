@@ -3,6 +3,7 @@ import Navbar from './app/components/header/Navbar'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Shop from './app/pages/Shop'
 import { useSelector } from 'react-redux'
+import './App.css'
 
 function App() {
   const mode = useSelector((state)=>state.mode.mode)

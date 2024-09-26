@@ -15,7 +15,6 @@ export const cartSlices = createSlice({
             }else{
                 state.push(action.payload)
             }
-            console.log(action);
             
         },
         removeCart: (state, action) => {
