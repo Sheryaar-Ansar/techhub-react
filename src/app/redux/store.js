@@ -3,6 +3,7 @@ import toggleReducer from "./features/toggleSlices";
 import cartReducer from "./features/cartSlices";
 import cartsliderReducer from "./features/cartsliderSlices";
 import categoryReducer from "./features/categorySlices";
+import paginationReducer from "./features/paginationSlices";
 
 
 export const store = configureStore({
@@ -11,5 +12,6 @@ export const store = configureStore({
         cart: cartReducer,
         slider: cartsliderReducer,
         category: categoryReducer,
+        pagination: paginationReducer,
     },
 })
