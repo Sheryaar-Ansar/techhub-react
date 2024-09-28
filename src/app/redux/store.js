@@ -4,6 +4,7 @@ import cartReducer from "./features/cartSlices";
 import cartsliderReducer from "./features/cartsliderSlices";
 import categoryReducer from "./features/categorySlices";
 import paginationReducer from "./features/paginationSlices";
+import priceReducer from "./features/priceSlices";
 
 
 export const store = configureStore({
@@ -13,5 +14,6 @@ export const store = configureStore({
         slider: cartsliderReducer,
         category: categoryReducer,
         pagination: paginationReducer,
+        price: priceReducer,
     },
 })

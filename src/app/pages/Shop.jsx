@@ -5,27 +5,29 @@ import CategoryList from '../components/shop/CategoryList';
 import { useDispatch, useSelector } from 'react-redux';
 import Pagination from '../components/shop/Pagination';
 import { setCurrentPage, setItemsPerPage, setNextPage } from '../redux/features/paginationSlices';
+import PriceRange from '../components/shop/PriceRange';
 
 
 const Shop = () => {
     const category = useSelector((state) => state.category.category)
     const currentPage = useSelector((state) => state.pagination.currentPage);
     const itemsPerPage = useSelector((state) => state.pagination.itemsPerPage);
+    const minPrice = useSelector((state)=>state.price.minRange)
+    const maxPrice = useSelector((state)=>state.price.maxRange)
     const dispatch = useDispatch();
 
     const filteredData = data.filter((product) => {
-        if (category === 'All') {
-            return product;
-        } else {
-            return category === product.category
-        }
+        const isCategory = category === 'All' || product.category === category
+        const isPriceRange = product.price.replace(/,/g, '') >= minPrice && product.price.replace(/,/g, '') <= maxPrice
+        return isCategory && isPriceRange
     })
 
-    const idxOfFirstItem = currentPage * itemsPerPage;
-    const idxOfLastItem = idxOfFirstItem - itemsPerPage;
+    const idxOfFirstItem = (currentPage-1) * itemsPerPage;
+    const idxOfLastItem = currentPage * itemsPerPage;
     const totalPages = Math.ceil(filteredData.length / itemsPerPage)
-    const currentItems = filteredData.slice(idxOfLastItem, idxOfFirstItem)
-    const totalItems = itemsPerPage * totalPages;
+    const currentItems = filteredData.slice(idxOfFirstItem, idxOfLastItem)
+    const ShowingItemsNo = Math.min(currentPage * itemsPerPage, filteredData.length)
+
 
     const displayPageNumbers = () => {
         const pages = [];
@@ -38,24 +40,33 @@ const Shop = () => {
         }
         return pages;
     }
+    const handleItemsPerPage = (e) => {
+        dispatch(setCurrentPage(1));
+        dispatch(setItemsPerPage(e.target.value))
+    }
     useEffect(() => {
         dispatch(setCurrentPage(1))
-    }, [category, dispatch])
+    }, [category, dispatch, minPrice, maxPrice])
 
     return (
         <div className='mx-auto max-w-screen-2xl mt-[70px] pt-[100px]'>
             <div className='w-full h-full gap-10 pb-20 flex'>
                 {/* Category Section */}
                 <div className='w-[25%]'>
+                    <div>
                     <CategoryList />
+                    </div>
+                    <div className='mt-6'>
+                    <PriceRange />
+                    </div>
                 </div>
 
                 {/* Items Section */}
                 <div className='w-[75%]'>
                     <div>
                         <div className='flex justify-between items-center'>
-                            <h1>Showing {itemsPerPage} Out of {data.length} </h1>
-                            <select onChange={(e)=>dispatch(setItemsPerPage(e.target.value))} className='mr-0 md:mr-28 bg-green-300'>
+                            <h1>Showing {ShowingItemsNo} Out of {filteredData.length} </h1>
+                            <select onChange={handleItemsPerPage} className='mr-0 md:mr-28 bg-green-300 pr-4 rounded-md'>
                                 <option value="9">9</option>
                                 <option value="18">18</option>
                                 <option value="27">27</option>
@@ -91,5 +102,3 @@ const Shop = () => {
 }
 
 export default Shop
-
-
