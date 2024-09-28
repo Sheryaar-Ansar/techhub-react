@@ -24,11 +24,11 @@ const PriceRange = () => {
           <hr className={`${expand ? 'hidden' : 'flex'} mt-3`} />
           <div className={`${expand ? 'max-h-[500px]' : 'max-h-[0px]'} overflow-hidden transition-all duration-300`}>
             <div className='mt-6'>
-              <input type="range" min={'0'} max={maxPrice} value={minPrice} onChange={handleMinRange} className='w-full'/>
+              <input type="range" min={'0'} max={maxPrice} value={minPrice} onChange={handleMinRange} className='w-full accent-green-600'/>
             </div>
             <div className='flex justify-between'>
-                <label>{updatedMinPrice}</label>
-                <label>{updatedMaxPrice}</label>
+                <label>{updatedMinPrice} -/PKR</label>
+                <label>{updatedMaxPrice} -/PKR</label>
             </div>
           </div>
         </div>

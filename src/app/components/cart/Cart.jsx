@@ -15,7 +15,7 @@ const Cart = () => {
     const total = totalQty.toLocaleString()
     return (
         <div>
-            <div className={`fixed top-0 right-0 w-[400px] ${mode ? 'bg-black text-white' : 'bg-white text-black'} h-full transition-all duration-300 ${active ? 'translate-x-0' : 'translate-x-full'} z-50`}>
+            <div className={`fixed top-0 right-0 w-full md:w-[400px] ${mode ? 'bg-black text-white' : 'bg-white text-black'} h-full transition-all duration-300 ${active ? 'translate-x-0' : 'translate-x-full'} z-50`}>
                 <div className='flex justify-between items-center p-3'>
                     <span className='text-xl uppercase'>Cart</span>
                     <IoMdClose onClick={() => dispatch(cartSlider())} className='border-2 border-gray-600 text-gray-600 font-bold p-1 text-xl rounded-md hover:text-red-600 hover:border-red-600 cursor-pointer' />

@@ -2,3 +2,15 @@
 #root {
   font-family: 'Poppins', sans-serif;
 }
+
+.zoomIn{
+  opacity: 0.2;
+}
+
+.active{
+  padding: 12px;
+  background: rgb(92, 201, 92);
+  border-radius: 10px;
+  box-shadow: 0 0 10px green;
+  transition: 2s linear all ease-in-out;
+}
