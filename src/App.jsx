@@ -4,6 +4,8 @@ import {Routes, Route } from 'react-router-dom'
 import Shop from './app/pages/Shop'
 import { useSelector } from 'react-redux'
 import './App.css'
+import Home from './app/pages/Home'
+import ProductDetail from './app/pages/ProductDetail'
 
 function App() {
   const mode = useSelector((state)=>state.mode.mode)
@@ -17,7 +19,9 @@ function App() {
     }} className={`${mode ? 'transition-all duration-700' : 'transition-all duration-200'}`}>
       <Navbar />
         <Routes>
+          <Route path='/' element={<Home />} />
           <Route path='/shop' element={<Shop />} />
+          <Route path='/shop/:id' element={<ProductDetail />} />
         </Routes>
     </div>
   )

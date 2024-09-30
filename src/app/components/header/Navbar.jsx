@@ -27,7 +27,7 @@ const Navbar = () => {
     <div>
       <div className={`absolute top-0 left-0 w-full h-20 flex justify-between items-center pl-5 lg:pl-7 pr-5 lg:pr-20 border-b-2 ${mode ? 'border-green-500 shadow-sm shadow-green-200' : 'border-gray-300 shadow-md shadow-gray-100'} ${mode ? 'bg-gray-900' : 'bg-gray-200'} transition-all duration-300`}>
         <h1 className='text-2xl'>Tech Hub</h1>
-        <div className='hidden md:flex lg:flex flex-1 justify-center items-center text-sm md:text-md lg:text-xl'>
+        <div className='hidden md:flex lg:flex flex-1 justify-center items-center text-sm md:text-md lg:text-lg'>
           <NavLink to={'/'} className={`uppercase `}>Home</NavLink>
           <NavLink to={'/shop'} className={`ml-0 md:ml-8 mt-20 md:mt-0 uppercase `}>Shop</NavLink>
         </div>
