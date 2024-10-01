@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import ItemListing from '../components/shop/ItemListing';
 import { data } from '../data'
 import CategoryList from '../components/shop/CategoryList';
@@ -9,6 +9,7 @@ import PriceRange from '../components/shop/PriceRange';
 
 
 const Shop = () => {
+    const nextPage = useRef(null)
     const mode = useSelector((state)=>state.mode.mode)
     const category = useSelector((state) => state.category.category)
     const currentPage = useSelector((state) => state.pagination.currentPage);
@@ -50,7 +51,7 @@ const Shop = () => {
     }, [category, dispatch, minPrice, maxPrice])
 
     return (
-        <div className='mx-auto max-w-screen-2xl mt-[70px] pt-[100px]'>
+        <div className='mx-auto max-w-screen-2xl mt-[70px] pt-[100px]' ref={nextPage}>
             <div className='w-full h-full gap-10 pb-20 flex'>
                 {/* Category Section */}
                 <div className='hidden md:w-[25%] md:block'>
@@ -93,7 +94,12 @@ const Shop = () => {
                         }
                     </div>
                     <div className='flex'>
-                        {displayPageNumbers()}
+                        <h1 onClick={()=>{
+                            nextPage.current?.scrollIntoView({
+                                behavior: 'smooth'
+                            })
+                        }} className='flex'>{displayPageNumbers()}</h1>
+                        
                         {/* <button onClick={()=> dispatch(setCurrentPage(currentPage + 1))}>Next</button> */}
                     </div>
                 </div>

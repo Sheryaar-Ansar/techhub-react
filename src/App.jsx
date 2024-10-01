@@ -6,6 +6,7 @@ import { useSelector } from 'react-redux'
 import './App.css'
 import Home from './app/pages/Home'
 import ProductDetail from './app/pages/ProductDetail'
+import Checkout from './app/components/cart/Checkout'
 
 function App() {
   const mode = useSelector((state)=>state.mode.mode)
@@ -22,6 +23,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/shop' element={<Shop />} />
           <Route path='/shop/:id' element={<ProductDetail />} />
+          <Route path='/proceed-to-checkout' element={<Checkout/>} />
         </Routes>
     </div>
   )

@@ -20,7 +20,7 @@ const AddToCart = ({ id, img, name, price, qty }) => {
                             <h1 className='text-[16px] font-medium'>{name}</h1>
                         </div>
                         <div className='flex '>
-                            <p className='text-green-500 text-[16px]'>{price.toLocaleString()} -/PKR</p>
+                            <p className='text-green-500 text-[16px]'>{price} -/PKR</p>
                             <div className='flex justify-center items-center gap-1 absolute right-7'>
                                 <AiOutlineMinus onClick={() => dispatch(qty > 1 ? cartDecrement({ id: id }) : dispatch(removeCart(id)))} className={`border-2 border-gray-600 text-gray-600 ${mode && 'text-white'} hover:text-white hover:bg-green-500 hover:border-none rounded-md p-1 text-md transition-all cursor-pointer`} />
                                 <span>{qty}</span>
