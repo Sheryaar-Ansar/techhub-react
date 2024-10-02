@@ -47,8 +47,8 @@ const Shop = () => {
         dispatch(setCurrentPage(1));
         dispatch(setItemsPerPage(e.target.value))
     }
-    const handleToast = () => {
-        toast.success('Added to cart')
+    const handleToast = (name) => {
+        toast.success(`${name} is Added to Cart`)
     }
     useEffect(() => {
         dispatch(setCurrentPage(1))

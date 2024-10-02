@@ -17,7 +17,7 @@ const ItemListing = ({ img, name, price, id, handleToast }) => {
   }
   const handleAddToCart = () => {
     dispatch(addtoCart({ id: id, name, price: Number(price.replace(/,/g, '')), img, qty: 1 }));
-    handleToast
+    handleToast(name)
     console.log(handleToast);
     
   }
