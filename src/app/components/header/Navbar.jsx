@@ -15,11 +15,14 @@ const Navbar = () => {
   const handleNavActive = () => {
     setActive(!active)
   }
+  const handleNavbarClose = () => {
+    setActive(false)
+  }
   const content = <>
     <div className={`md:hidden absolute block top-20 left-0 w-full h-full right-0 ${mode ? 'bg-gray-900' : 'bg-gray-200'} transition-colors duration-300 z-50`}>
       <div className='flex justify-center items-center flex-col py-9'>
-        <NavLink to={'/'}>Home</NavLink>
-        <NavLink to={'/shop'} className={'mt-5'}>Shop</NavLink>
+        <NavLink to={'/'} onClick={handleNavbarClose}>Home</NavLink>
+        <NavLink to={'/shop'} className={'mt-5'} onClick={handleNavbarClose}>Shop</NavLink>
       </div>
     </div>
   </>

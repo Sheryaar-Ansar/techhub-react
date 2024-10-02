@@ -20,7 +20,7 @@ const ItemListing = ({ img, name, price, id }) => {
     <div key={id} className={`w-[300px] h-[450px] group border ${mode ? 'border-green-400 shadow-md shadow-green-300 ' : 'bg-gray-300'} shadow-md rounded-lg`}>
       <div className='max-w-[300px] max-h-[300px] relative overflow-y-hidden hover:opacity-50 transition-opacity duration-500'>
         <div className=''>
-          <img src={img} alt={name} className='w-[300px] h-[300px]' />
+          <img src={img} alt={name} className='w-[300px] h-[300px] rounded-t-lg' />
         </div>
         <div className={`w-full absolute -bottom-[130px] h-32 py-2 right-0 ${!mode ? 'bg-white' : 'bg-black'} group-hover:bottom-[0px] transition-all duration-500 hover:opacity-100`}>
           <ul className='h-full w-full flex flex-col items-end justify-center gap-2'>
