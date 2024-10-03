@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Navbar from './app/components/header/Navbar'
 import { Routes, Route } from 'react-router-dom'
 import Shop from './app/pages/Shop'
@@ -30,7 +29,7 @@ function App() {
         <Route path='/shop' element={<Shop />} />
         <Route path='/shop/:id' element={<ProductDetail />} />
         <Route path='/proceed-to-checkout' element={<Checkout />} />
-        <Route path='/order-placement' element={<OrderPlacement/>} />
+        <Route path='/order-placement' element={<OrderPlacement />} />
       </Routes>
     </div>
   )
