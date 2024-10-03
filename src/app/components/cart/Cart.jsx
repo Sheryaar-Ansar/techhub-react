@@ -20,7 +20,7 @@ const Cart = () => {
         navigate(`/proceed-to-checkout`);
         dispatch(cartSlider())
     }
-    console.log(cartItems);
+    // console.log(cartItems);
     
 
     return (

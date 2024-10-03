@@ -11,9 +11,13 @@ export const orderSlices = createSlice({
             state.push(action.payload)
     
         },
+        removeDetails: (state) => {
+            let updatedArr = []
+            return updatedArr
+        }
     },
 })
 
-export const { addDetails } = orderSlices.actions;
+export const { addDetails,removeDetails } = orderSlices.actions;
 export default orderSlices.reducer;
 

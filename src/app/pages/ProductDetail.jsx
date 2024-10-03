@@ -18,8 +18,8 @@ const ProductDetail = () => {
     const handleNext = () => {
         setCurr((curr) => curr === imagesSlide.length - 1 ? curr = 0 : curr + 1)
     }
-    console.log(id)
-    console.log(product);
+    // console.log(id)
+    // console.log(product);
 
 
     return (
