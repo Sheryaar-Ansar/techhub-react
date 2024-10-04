@@ -8,7 +8,6 @@ import { setCurrentPage, setItemsPerPage, setNextPage } from '../redux/features/
 import PriceRange from '../components/shop/PriceRange';
 import toast, { Toaster } from 'react-hot-toast';
 
-
 const Shop = () => {
     const nextPage = useRef(null)
     const mode = useSelector((state) => state.mode.mode)
@@ -30,7 +29,6 @@ const Shop = () => {
     const totalPages = Math.ceil(filteredData.length / itemsPerPage)
     const currentItems = filteredData.slice(idxOfFirstItem, idxOfLastItem)
     const ShowingItemsNo = Math.min(currentPage * itemsPerPage, filteredData.length)
-
 
     const displayPageNumbers = () => {
         const pages = [];
