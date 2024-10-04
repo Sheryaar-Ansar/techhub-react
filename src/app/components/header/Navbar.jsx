@@ -27,6 +27,7 @@ const Navbar = () => {
       <div className='flex justify-center items-center flex-col py-9'>
         <NavLink to={'/'} onClick={handleNavbarClose}>Home</NavLink>
         <NavLink to={'/shop'} className={'mt-5'} onClick={handleNavbarClose}>Shop</NavLink>
+        <NavLink to={'/shop'} className={'mt-5'} onClick={handleNavbarClose}>Shop</NavLink>
       </div>
     </div>
   </>
@@ -37,6 +38,7 @@ const Navbar = () => {
         <div className='hidden md:flex lg:flex flex-1 justify-center items-center text-sm md:text-md'>
           <NavLink to={'/'} className={`uppercase `}>Home</NavLink>
           <NavLink to={'/shop'} className={`ml-0 md:ml-8 mt-20 md:mt-0 uppercase `}>Shop</NavLink>
+          <NavLink to={'/login'} className={`ml-0 md:ml-8 mt-20 md:mt-0 uppercase `}>Login</NavLink>
         </div>
         <div className='flex justify-center items-center'>
           <Toggle className={``}/>

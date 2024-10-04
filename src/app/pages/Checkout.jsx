@@ -3,7 +3,7 @@ import { GiShoppingCart } from 'react-icons/gi'
 import { IoIosArrowForward } from 'react-icons/io'
 import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
-import { addDetails} from '../../redux/features/orderSlices'
+import { addDetails} from '../redux/features/orderSlices'
 
 const Checkout = () => {
     const mode = useSelector((state) => state.mode.mode)
@@ -48,7 +48,7 @@ const Checkout = () => {
                         <button onClick={()=>navigate('/shop')} className='w-[250px] h-[45px] bg-green-300 text-md uppercase mt-3 hover:border hover:border-green-300 hover:shadow-md hover:shadow-green-400 transition-all duration-300 ease-in-out'>Continue Shopping</button>
                     </div>
                 ) : (
-                    <form className='block md:flex justify-around w-full'>
+                    <form onSubmit={handleOrderPlacement} className='block md:flex justify-around w-full'>
                         <div className={` md:w-[50%] ${mode ? 'bg-gray-800' : 'bg-gray-100'} p-3 rounded-lg border`}>
                             <h1 className='text-3xl'>Checkout</h1>
                             <hr className='my-3' />
@@ -122,7 +122,7 @@ const Checkout = () => {
                                 </div>
                                 <div>
                                     <p className='font-bold'>Total Price: <span className='font-normal'>{totalPrice.toLocaleString()} PKR</span></p>
-                                    <button onClick={handleOrderPlacement} className='h-10 w-full bg-green-400 border rounded-lg my-3 hover:shadow-md hover:shadow-green-500 hover:border-green-400 transition-all duration-300 ease-out'>Place Order</button>
+                                    <button type='submit' className='h-10 w-full bg-green-400 border rounded-lg my-3 hover:shadow-md hover:shadow-green-500 hover:border-green-400 transition-all duration-300 ease-out'>Place Order</button>
                                 </div>
                             </div>
                         </div>

@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { clearCart } from '../../redux/features/cartSlices';
+import { clearCart } from '../redux/features/cartSlices';
 import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
-import { removeDetails } from '../../redux/features/orderSlices';
+import { removeDetails } from '../redux/features/orderSlices';
 
 const OrderPlacement = () => {
   const order = useSelector((state) => state.order)

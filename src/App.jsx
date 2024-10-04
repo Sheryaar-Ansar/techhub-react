@@ -5,9 +5,10 @@ import { useSelector } from 'react-redux'
 import './App.css'
 import Home from './app/pages/Home'
 import ProductDetail from './app/pages/ProductDetail'
-import Checkout from './app/components/cart/Checkout'
+import Checkout from './app/pages/Checkout'
 import { Toaster } from 'react-hot-toast'
-import OrderPlacement from './app/components/cart/OrderPlacement'
+import OrderPlacement from './app/pages/OrderPlacement'
+import Login from './app/pages/Login'
 
 function App() {
   const mode = useSelector((state) => state.mode.mode)
@@ -28,6 +29,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/shop' element={<Shop />} />
         <Route path='/shop/:id' element={<ProductDetail />} />
+        <Route path='/login' element={<Login />} />
         <Route path='/proceed-to-checkout' element={<Checkout />} />
         <Route path='/order-placement' element={<OrderPlacement />} />
       </Routes>
