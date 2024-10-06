@@ -1,0 +1,17 @@
+import React from 'react'
+import { BiSearch } from 'react-icons/bi'
+
+const SearchFilter = () => {
+  return (
+    <div>
+      <div className='flex justify-center items-center'>
+        <div className='flex w-[90%] border items-center p-3 rounded-md'>
+            <label htmlFor="searchIcon"><BiSearch className='text-xl cursor-pointer'/></label>
+            <input type="text" placeholder='Search Your Products' id='searchIcon' className='ml-3 w-full h-full outline-none' />
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default SearchFilter

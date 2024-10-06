@@ -7,6 +7,7 @@ import Pagination from '../components/shop/Pagination';
 import { setCurrentPage, setItemsPerPage, setNextPage } from '../redux/features/paginationSlices';
 import PriceRange from '../components/shop/PriceRange';
 import toast, { Toaster } from 'react-hot-toast';
+import SearchFilter from '../components/shop/SearchFilter';
 
 const Shop = () => {
     const nextPage = useRef(null)
@@ -73,9 +74,12 @@ const Shop = () => {
                     {/* Items Section */}
                     <div className='w-full md:w-[75%]'>
                         <div>
-                            <div className=' md:flex md:justify-between md:items-center'>
+                            <div>
+                                <SearchFilter />
+                            </div>
+                            <div className='mt-4 flex flex-row md:flex md:justify-between md:items-center'>
                                 <h1>Showing {ShowingItemsNo} Out of {filteredData.length} </h1>
-                                <select onChange={handleItemsPerPage} className={`${!mode ? 'bg-green-300' : 'bg-green-500'} pr-4 rounded-md ml-4 md:ml-0`}>
+                                <select onChange={handleItemsPerPage} className={`${!mode ? 'bg-green-300' : 'bg-green-500'} pr-4 rounded-md ml-6 md:ml-0`}>
                                     <option value="9">9</option>
                                     <option value="18">18</option>
                                     <option value="27">27</option>
