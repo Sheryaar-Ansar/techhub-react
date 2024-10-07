@@ -13,13 +13,7 @@ import Contact from './app/pages/Contact'
 function App() {
   const mode = useSelector((state) => state.mode.mode)
   return (
-    <div style={mode ? {
-      background: 'black',
-      color: 'white'
-    } : {
-      background: 'white',
-      color: 'black'
-    }} className={`${mode ? 'transition-all duration-700' : 'transition-all duration-200'}`}>
+    <div className={`${mode ? 'transition-all duration-500 bg-black text-white' : 'transition-all duration-500 bg-white text-black'}`}>
       <Toaster
         position="top-center"
         reverseOrder={false}

@@ -54,12 +54,12 @@ const Shop = () => {
     }, [category, dispatch, minPrice, maxPrice])
 
     return (
-        <>
+        <div className={`${mode ? 'bg-gray-900' : 'bg-gray-200'}`}>
             <Toaster
                 position="top-center"
                 reverseOrder={false}
             />
-            <div className='mx-auto max-w-screen-2xl mt-[70px] pt-[100px]' ref={nextPage}>
+            <div className={`mx-auto max-w-screen-2xl mt-[70px] pt-[100px]`} ref={nextPage}>
                 <div className='w-full h-full gap-10 pb-20 flex'>
                     {/* Category Section */}
                     <div className='hidden md:w-[25%] md:block'>
@@ -119,7 +119,7 @@ const Shop = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

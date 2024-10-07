@@ -17,7 +17,7 @@ export const HeroData = [
         img: laptop,
         title1: 'HP',
         title2: 'Branded',
-        title3: 'Laptop',
+        title3: 'MAC/Laptop',
         button: 'Explore More'
     },
     {

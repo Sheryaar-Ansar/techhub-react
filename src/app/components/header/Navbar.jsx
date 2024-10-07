@@ -41,7 +41,7 @@ const Navbar = () => {
           <NavLink to={'/contact'} className={`ml-0 md:ml-8 mt-20 md:mt-0 uppercase `}>Contact Us</NavLink>
         </div>
         <div className='flex justify-center items-center'>
-          <Toggle className={``}/>
+          <Toggle/>
           <CiShoppingCart className='text-3xl cursor-pointer ml-5' onClick={()=>dispatch(cartSlider())}/>
           <button onClick={handleNavActive} className='flex md:hidden ml-3'>{active ? <FaTimes className='text-xl'/> : <CiMenuBurger className='text-xl'/>}</button>
         </div>
