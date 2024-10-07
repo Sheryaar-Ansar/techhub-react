@@ -4,6 +4,7 @@ import { data } from '../data'
 import { GrFormNext, GrFormPrevious } from 'react-icons/gr'
 import { useDispatch, useSelector } from 'react-redux'
 import { addtoCart } from '../redux/features/cartSlices'
+import toast from 'react-hot-toast'
 
 const ProductDetail = () => {
     const { id } = useParams()
@@ -44,7 +45,7 @@ const ProductDetail = () => {
                             <p className='uppercase text-sm text-green-400 font-serif'>Price shown before tax</p>
                             <p className='text-md md:text-xl mt-10 font-bold'>Description: <span className='block text-lg mt-3 font-normal'>{product.desc}</span></p>
                             <div className='flex justify-center md:block'>
-                            <button onClick={() => dispatch(addtoCart({ id: product.id, name: product.name, price: product.price.replace(/,/g, ''), img: product.images, qty: 1 }))} className={`mt-7 w-36 h-12 p-3 bg-green-300 text-lg font-semibold ${mode ? 'hover:border hover:border-green-400 hover:shadow-md hover:shadow-green-400 hover:transition-all hover:duration-300' : 'hover:border hover:shadow-md hover:transition-all hover:duration-300'}`}>Add to cart</button>
+                            <button onClick={() => dispatch(addtoCart({ id: product.id, name: product.name, price: product.price.replace(/,/g, ''), img: product.images, qty: 1 })) && toast.success(`${product.name} is Added to Cart`)} className={`mt-7 w-36 h-12 p-3 bg-green-300 text-lg font-semibold ${mode ? 'hover:border hover:border-green-400 hover:shadow-md hover:shadow-green-400 hover:transition-all hover:duration-300' : 'hover:border hover:shadow-md hover:transition-all hover:duration-300'}`}>Add to cart</button>
                             </div>
                         </div>
                     </div>

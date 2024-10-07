@@ -7,7 +7,7 @@ const SearchFilter = () => {
       <div className='flex justify-center items-center'>
         <div className='flex w-[90%] border items-center p-3 rounded-md'>
             <label htmlFor="searchIcon"><BiSearch className='text-xl cursor-pointer'/></label>
-            <input type="text" placeholder='Search Your Products' id='searchIcon' className='ml-3 w-full h-full outline-none' />
+            <input type="text" placeholder='Search Your Products' id='searchIcon' className='ml-3 w-full h-full outline-none bg-transparent' />
         </div>
       </div>
     </div>

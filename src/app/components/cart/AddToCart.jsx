@@ -20,7 +20,7 @@ const AddToCart = ({ id, img, name, price, qty }) => {
     return (
         <div className='relative px-3'>
             <div className='z-40 relative'>
-                <div key={id} className='flex mb-4 shadow-md'>
+                <div key={id} className={`flex mb-4 shadow-md ${mode && 'shadow-sm shadow-green-300'}`}>
                     <div>
                         <img src={img} alt={name} className='w-[60px] h-[60px] rounded-md' />
                     </div>

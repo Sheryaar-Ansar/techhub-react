@@ -35,7 +35,7 @@ const Shop = () => {
         const pages = [];
         for (let i = 1; i <= totalPages; i++) {
             pages.push(
-                <button key={i} onClick={() => dispatch(setCurrentPage(i))} className={`h-6 w-6 ${currentPage === i && 'bg-green-400 shadow-sm shadow-green-500 border-green-400 border hover:border hover:border-green-500'} ml-4 mt-5 md:p-4 md:text-md flex justify-center rounded-md items-center text-lg hover:border-gray-300 hover:border`}>
+                <button key={i} onClick={() => dispatch(setCurrentPage(i))} className={`h-4 w-4 md:h-6 md:w-6 ${currentPage === i && 'bg-green-400 shadow-sm shadow-green-500 border-green-400 border hover:border hover:border-green-500'} ml-2 md:ml-4 mt-5 p-2 md:p-4 text-md flex justify-center rounded-md items-center md:text-lg hover:border-gray-300 hover:border`}>
                     {i}
                 </button>
             )
@@ -77,18 +77,20 @@ const Shop = () => {
                             <div>
                                 <SearchFilter />
                             </div>
-                            <div className='mt-4 flex flex-row md:flex md:justify-between md:items-center'>
-                                <h1>Showing {ShowingItemsNo} Out of {filteredData.length} </h1>
-                                <select onChange={handleItemsPerPage} className={`${!mode ? 'bg-green-300' : 'bg-green-500'} pr-4 rounded-md ml-6 md:ml-0`}>
-                                    <option value="9">9</option>
-                                    <option value="18">18</option>
-                                    <option value="27">27</option>
-                                    <option value="36">36</option>
-                                    <option value="45">45</option>
-                                    <option value="54">54</option>
-                                    <option value="63">63</option>
-                                    <option value="72">72</option>
-                                </select>
+                            <div className='flex justify-center items-center mt-10 w-full'>
+                                <div className='flex flex-row md:flex md:justify-between md:flex-row md:items-center md:w-[95%]'>
+                                    <h1>Showing {ShowingItemsNo} Out of {filteredData.length} </h1>
+                                    <select onChange={handleItemsPerPage} className={`${!mode ? 'bg-green-300' : 'bg-green-500'} pr-4 rounded-md ml-6 md:ml-0`}>
+                                        <option value="9">9</option>
+                                        <option value="18">18</option>
+                                        <option value="27">27</option>
+                                        <option value="36">36</option>
+                                        <option value="45">45</option>
+                                        <option value="54">54</option>
+                                        <option value="63">63</option>
+                                        <option value="72">72</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
                         <div className='flex justify-center items-center flex-wrap md:flex md:flex-wrap'>

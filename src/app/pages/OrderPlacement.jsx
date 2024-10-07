@@ -25,12 +25,20 @@ const OrderPlacement = () => {
     dispatch(clearCart())
     dispatch(removeDetails())
     showToast()
+
+  }
+  const redirectHome = () => {
     navigate('/')
   }
 
+  useEffect(()=> {
+    const timeOut = setTimeout(clearInfo, 3000)
+    return () => clearTimeout(timeOut)
+  },[])
+
   useEffect(() => {
     if (cartItems.length >= 1 || order.length >= 1) {
-      const timeOut = setTimeout(clearInfo, 3000)
+      const timeOut = setTimeout(redirectHome, 6000)
       return () => clearTimeout(timeOut)
     }else{
       navigate('/')
