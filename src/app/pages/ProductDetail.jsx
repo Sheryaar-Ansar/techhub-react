@@ -24,7 +24,7 @@ const ProductDetail = () => {
 
 
     return (
-        <div className='mx-auto mt-[70px] pt-[100px] min-h-screen'>
+        <div className={`mx-auto mt-[70px] pt-[100px] min-h-screen ${mode ? 'bg-gray-900' : 'bg-gray-200'}`}>
             <div className='pb-5'>
                 <div className='flex flex-col md:flex md:flex-row justify-center items-center w-full'>
                     <div className='relative md:ml-6'>
