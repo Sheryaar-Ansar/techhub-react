@@ -1,5 +1,8 @@
 import React from 'react'
 import Hero from '../components/home/Hero'
+import { arrivalData } from '../components/home/arrivalData'
+import SliderHook from '../components/home/Slider'
+import { brandedData } from '../components/home/brandedData'
 
 const Home = () => {
   
@@ -9,6 +12,12 @@ const Home = () => {
         <div>
           <div>
             <Hero/>
+          </div>
+          <div>
+              <SliderHook productData={arrivalData} title={'New Arrival'}/>
+          </div>
+          <div>
+            <SliderHook productData={brandedData} title={'Branded Products'}/>
           </div>
         </div>
       </div>

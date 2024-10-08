@@ -1,0 +1,63 @@
+
+.slick-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slick-slide div{
+    margin-left: auto;
+    margin-left: auto;
+    width: 300px;
+}
+.slick-arrow::before {
+    color: #4ade80;
+    font-size: 37px;
+}
+.slick-prev {
+    top: 35%;
+    left: 20px;
+    z-index: 99999;
+}
+.slick-next {
+    top: 35%;
+}
+@media only screen and (min-width: 0) and (max-width: 440px){
+    .slick-slide div{
+        width: 200px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .slick-next{
+        right: 20px;
+    }
+    .forResponsive{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media only screen and (min-width: 441) and (max-width: 768px){
+    .slick-slide div{
+        width: 300px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .slick-slide{
+        /* margin-left: 100px; */
+        display: flex;
+    }
+    .slick-next{
+        position: absolute;
+        right: 50px;
+    }
+}
+@media only screen and (min-width: 769) and (max-width: 1021px){
+    .slick-arrow::before{
+        font-size: 20px;
+    }
+    .slick-prev {
+        top: 20%;
+    }
+    .slick-next {
+        top: 20%;
+    }
+}
