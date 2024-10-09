@@ -8,9 +8,18 @@
 }
 
 .active{
-  padding: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  height: 40px;
   background: rgb(92, 201, 92);
   border-radius: 10px;
   box-shadow: 0 0 10px green;
   transition: 2s linear all ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  transition: 0.2s all ease-in-out;
+  animation-duration: 500ms;
 }

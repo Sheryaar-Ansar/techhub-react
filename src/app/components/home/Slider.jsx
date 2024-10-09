@@ -9,7 +9,7 @@ const SliderHook = ({title, productData}) => {
     let settings = {
         dots: false,
         infinite: true,
-        speed: 1200,
+        speed: 600,
         slidesToShow: 4,
         slidesToScroll: 1,
         initialSlide: 0,
