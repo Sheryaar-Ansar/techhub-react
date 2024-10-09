@@ -38,7 +38,7 @@ const Hero = () => {
                 >
                     {HeroData.map((item) => (
                         <div key={item.id} className="w-full flex-none flex items-center justify-center flex-col md:flex-row px-20">
-                            <div className='order-2 md:order-1'>
+                            <div data-aos='fade-right' data-aos-duration='1000' data-aos-easing='ease-out-cubic' className='order-2 md:order-1'>
                                 <h1 className="hidden md:block text-sm lg:text-md xl:text-lg text-gray-700 font-semibold mb-2">{item.title1}</h1>
                                 <h1 className="hidden md:block md:text-2xl lg:text-2xl xl:text-6xl font-bold text-black">{item.title2}</h1>
                                 <div className='relative'>
@@ -51,7 +51,7 @@ const Hero = () => {
                                 </button>
                             </div>
 
-                            <div className="order-1 md:order-2 w-[300px] md:w-[500px] md:ml-40 lg:w-[700px] flex justify-start pr-10 z-20">
+                            <div data-aos='fade-left' data-aos-duration='1000' data-aos-easing='ease-out-cubic' className="order-1 md:order-2 w-[300px] md:w-[500px] md:ml-40 lg:w-[700px] flex justify-start pr-10 z-20">
                                 <img src={item.img} alt={item.title3} className="w-[300px] md:w-[500px] lg:w-[700px] select-none z-20" />
                             </div>
                         </div>

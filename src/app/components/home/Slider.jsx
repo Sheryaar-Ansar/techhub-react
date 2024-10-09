@@ -50,8 +50,8 @@ const SliderHook = ({title, productData}) => {
     }
     return (
         <div className={`${mode ? 'bg-gray-900' : 'bg-gray-200'} pt-[150px]`}>
-            <div>
-                <div className={`w-[100%] flex justify-center items-center`}>
+            <div data-aos='fade-up' data-aos-anchor-placement='top bottom'>
+                <div  className={`w-[100%] flex justify-center items-center`}>
                    
                         <span className='h-[3px] bg-gray-400 w-[30%]'></span>
                         <h1 className='text-md md:text-2xl uppercase font-bold ml-1'>{title}</h1>
@@ -62,7 +62,7 @@ const SliderHook = ({title, productData}) => {
                     <div className='mt-[50px] w-[80%] mx-auto'>
                         <Slider {...settings}>
                             {productData.map((item,idx) => (
-                                <div key={idx} onClick={()=>handleDetails(item.id)} className={`w-[150px] h-[450px] md:w-[300px] lg:w-[300px] bg-gray-300 ${mode && 'bg-gray-800'} rounded-xl cursor-pointer hover:opacity-55 transition-opacity duration-300 ease-in`}>
+                                <div data-aos='zoom-in' key={idx} onClick={()=>handleDetails(item.id)} className={`w-[150px] h-[450px] md:w-[300px] lg:w-[300px] bg-gray-300 ${mode && 'bg-gray-800'} rounded-xl cursor-pointer hover:opacity-55 transition-opacity duration-300 ease-in`}>
                                     <div>
                                         <div>
                                             <img src={item.images[0]} alt={item.desc} className='forResponsive w-[300px] h-[300px] md:w-[300px] md:h-[300px] lg:w-[300px] lg:h-[300px] rounded-xl' />
