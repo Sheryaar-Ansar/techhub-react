@@ -4,11 +4,26 @@
     justify-content: center;
     align-items: center;
 }
-.slick-slide div{
-    margin-left: auto;
-    margin-left: auto;
+
+.slider-container img {
+    margin: auto;
+    height: 300px;
     width: 300px;
 }
+.slider-container img:hover{
+    opacity: 0.6;
+    transition: 0.4s all ease-in-out;
+}
+  
+.slick-slide > div {
+    display: grid;
+    place-items: center;
+    width: 72%;
+    margin-top: 50px;
+    margin: auto;
+    height: 500px;
+    padding: 0px;
+  }
 .slick-arrow::before {
     color: #4ade80;
     font-size: 37px;
@@ -24,8 +39,6 @@
 @media only screen and (min-width: 0) and (max-width: 440px){
     .slick-slide div{
         width: 200px;
-        margin-left: 0;
-        margin-right: 0;
     }
     .slick-next{
         right: 20px;
@@ -34,12 +47,15 @@
         width: 200px;
         height: 200px;
     }
+    .slide-container img{
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
 }
 @media only screen and (min-width: 441) and (max-width: 768px){
     .slick-slide div{
         width: 300px;
-        margin-left: 0;
-        margin-right: 0;
     }
     .slick-slide{
         /* margin-left: 100px; */

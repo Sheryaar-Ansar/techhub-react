@@ -34,7 +34,7 @@ const SliderHook = ({title, productData}) => {
                 }
             },
             {
-                breakpoint: 768,
+                breakpoint: 540,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
@@ -59,7 +59,7 @@ const SliderHook = ({title, productData}) => {
                 
                 </div>
                 <div>
-                    <div className='mt-[50px] w-[80%] mx-auto'>
+                    <div className='slider-container mt-[50px] w-[80%] mx-auto'>
                         <Slider {...settings}>
                             {productData.map((item,idx) => (
                                 <div data-aos='zoom-in' key={idx} onClick={()=>handleDetails(item.id)} className={`w-[150px] h-[450px] md:w-[300px] lg:w-[300px] bg-gray-300 ${mode && 'bg-gray-800'} rounded-xl cursor-pointer hover:opacity-55 transition-opacity duration-300 ease-in`}>
