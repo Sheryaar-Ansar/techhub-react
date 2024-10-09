@@ -10,14 +10,14 @@ const ProductDetail = () => {
     const { id } = useParams()
     const dispatch = useDispatch()
     const product = data.find((product) => product.id == id)
-    const imagesSlide = product.images;
+    // const imagesSlide = product.images;
     const mode = useSelector((state) => state.mode.mode)
     const [curr, setCurr] = useState(0);
     const handlePrev = () => {
-        setCurr((curr) => curr === 0 ? imagesSlide.length - 1 : curr - 1);
+        setCurr((curr) => curr === 0 ? product.images.length - 1 : curr - 1);
     }
     const handleNext = () => {
-        setCurr((curr) => curr === imagesSlide.length - 1 ? curr = 0 : curr + 1)
+        setCurr((curr) => curr === product.images.length - 1 ? curr = 0 : curr + 1)
     }
     // console.log(id)
     // console.log(product);

@@ -3,10 +3,12 @@ import React, { useEffect, useState } from 'react'
 import { HeroData } from './HeroData'
 import { IoArrowBack, IoArrowForward } from 'react-icons/io5'
 import { useSelector } from 'react-redux'
+import { useNavigate } from 'react-router-dom'
 
 const Hero = () => {
     const [currentSlide, setCurrentSlide] = useState(0)
     const mode = useSelector((state) => state.mode.mode)
+    const navigate = useNavigate()
 
     const nextSlide = () => {
         setCurrentSlide((prevSlide) =>
@@ -18,6 +20,9 @@ const Hero = () => {
         setCurrentSlide((prevSlide) =>
             prevSlide === 0 ? HeroData.length - 1 : prevSlide - 1
         )
+    }
+    const handleNavigate = () => {
+        navigate('/shop')
     }
     useEffect(() => {
         const timeout = setInterval(nextSlide, 4000)
@@ -41,7 +46,7 @@ const Hero = () => {
                                         {item.title3}
                                     </h1>
                                 </div>
-                                <button className="mt-8 py-1 px-1 md:py-3 md:px-6 border border-green-400 rounded-md text-sm md:text-lg hover:bg-green-400 transition-all duration-300 ease-out z-10">
+                                <button onClick={handleNavigate} className="mt-8 py-1 px-1 md:py-3 md:px-6 border border-green-400 rounded-md text-sm md:text-lg hover:bg-green-400 transition-all duration-300 ease-out z-10">
                                     Shop By Category
                                 </button>
                             </div>

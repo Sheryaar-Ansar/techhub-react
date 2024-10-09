@@ -9,6 +9,7 @@ import Checkout from './app/pages/Checkout'
 import { Toaster } from 'react-hot-toast'
 import OrderPlacement from './app/pages/OrderPlacement'
 import Contact from './app/pages/Contact'
+import Footer from './app/components/footer/Footer'
 
 function App() {
   const mode = useSelector((state) => state.mode.mode)
@@ -27,6 +28,7 @@ function App() {
         <Route path='/proceed-to-checkout' element={<Checkout />} />
         <Route path='/order-placement' element={<OrderPlacement />} />
       </Routes>
+      <Footer />
     </div>
   )
 }
