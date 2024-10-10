@@ -1,8 +1,8 @@
 import React from 'react'
 import Hero from '../components/home/Hero'
 import { arrivalData } from '../components/home/arrivalData'
-import SliderHook from '../components/home/Slider'
 import { brandedData } from '../components/home/brandedData'
+import SliderCard from '../components/home/Slider'
 
 const Home = () => {
   
@@ -14,10 +14,10 @@ const Home = () => {
             <Hero/>
           </div>
           <div>
-              <SliderHook productData={arrivalData} title={'New Arrival'}/>
+              <SliderCard productData={arrivalData} title={'New Arrival'}/>
           </div>
           <div>
-            <SliderHook productData={brandedData} title={'Branded Products'}/>
+            <SliderCard productData={brandedData} title={'Branded Products'}/>
           </div>
         </div>
       </div>

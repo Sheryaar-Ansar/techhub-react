@@ -5,7 +5,7 @@ import Slider from 'react-slick';
 import './Slick-react.css'
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-const SliderHook = ({title, productData}) => {
+const SliderCard = ({title, productData}) => {
     const mode = useSelector((state) => state.mode.mode)
     const navigate = useNavigate()
     let settings = {
@@ -88,4 +88,4 @@ const SliderHook = ({title, productData}) => {
     )
 }
 
-export default SliderHook
+export default SliderCard

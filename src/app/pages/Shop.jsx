@@ -18,11 +18,14 @@ const Shop = () => {
     const minPrice = useSelector((state) => state.price.minRange)
     const maxPrice = useSelector((state) => state.price.maxRange)
     const dispatch = useDispatch();
+    const [search, setSearch] = useState('')
+
 
     const filteredData = data.filter((product) => {
         const isCategory = category === 'All' || product.category === category
         const isPriceRange = product.price.replace(/,/g, '') >= minPrice && product.price.replace(/,/g, '') <= maxPrice
-        return isCategory && isPriceRange
+        const isSearch = product.name.toLowerCase().includes(search.toLowerCase())
+        return isCategory && isPriceRange && isSearch
     })
 
     const idxOfFirstItem = (currentPage - 1) * itemsPerPage;
@@ -75,7 +78,7 @@ const Shop = () => {
                     <div className='w-full md:w-[75%]'>
                         <div>
                             <div>
-                                <SearchFilter />
+                                <SearchFilter setSearch={setSearch}/>
                             </div>
                             <div className='flex justify-center items-center mt-10 w-full'>
                                 <div className='flex flex-row md:flex md:justify-between md:flex-row md:items-center md:w-[95%]'>

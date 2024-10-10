@@ -40,17 +40,17 @@ const Checkout = () => {
     }
     
     return (
-        <div className='mt-[70px] pt-[100px] min-h-screen mx-auto'>
+        <div className={`mt-[70px] pt-[100px] min-h-screen mx-auto ${mode ? 'bg-gray-900' : 'bg-gray-200'}`}>
             <div >
                 {cartItems.length === 0 ? (
-                    <div className='flex justify-center items-center flex-col'><GiShoppingCart className='text-2xl' />
+                    <div className={`flex justify-center items-center flex-col ${mode ? 'bg-gray-900' : 'bg-gray-200'}`}><GiShoppingCart className='text-2xl' />
                         <h1>Your Cart Is Empty</h1>
                         <button onClick={()=>navigate('/shop')} className='w-[250px] h-[45px] bg-green-300 text-md uppercase mt-3 hover:border hover:border-green-300 hover:shadow-md hover:shadow-green-400 transition-all duration-300 ease-in-out'>Continue Shopping</button>
                     </div>
                 ) : (
                     <form onSubmit={handleOrderPlacement} className='block md:flex justify-around w-full'>
-                        <div className={` md:w-[50%] ${mode ? 'bg-gray-800' : 'bg-gray-100'} p-3 rounded-lg border`}>
-                            <h1 className='text-3xl'>Checkout</h1>
+                        <div className={` md:w-[50%] ${mode ? 'bg-gray-800' : 'bg-gray-300'} p-3 rounded-lg border`}>
+                            <h1 className='text-3xl uppercase font-bold font-sans'>Checkout</h1>
                             <hr className='my-3' />
                             <div className='ml-5 mt-8'>
                                 <div className='border p-3'>
@@ -103,7 +103,7 @@ const Checkout = () => {
                             </div>
                         </div>
                         <div>
-                            <div className={` mt-5 md:mt-0${mode ? 'bg-gray-800' : 'bg-gray-100'} border p-3 rounded-xl transition-all duration-500`}>
+                            <div className={` mt-5 md:mt-0 ${mode ? 'bg-gray-800' : 'bg-gray-300'} border p-3 rounded-xl transition-all duration-500`}>
                                 <h1 className='text-2xl'>Order Summary</h1>
                                 <hr className='my-3' />
                                 <div className=''>
