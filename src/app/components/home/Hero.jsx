@@ -42,7 +42,7 @@ const Hero = () => {
                                 <h1 className="hidden md:block text-sm lg:text-md xl:text-lg text-gray-700 font-semibold mb-2">{item.title1}</h1>
                                 <h1 className="hidden md:block md:text-2xl lg:text-2xl xl:text-6xl font-bold text-black">{item.title2}</h1>
                                 <div className='relative'>
-                                    <h1 className={`hidden md:block md:absolute md:top-[64px] md:4xl lg:5xl xl:text-[150px] 2xl:text-[150px] font-bold uppercase text-gray-300 ${mode && 'text-gray-500'} whitespace-nowrap z-10`}>
+                                    <h1 className={`hidden md:block md:absolute md:top-[64px] md:text-[70px] lg:text-[150px] xl:text-[150px] 2xl:text-[150px] font-bold uppercase text-gray-300 ${mode && 'text-gray-500'} whitespace-nowrap z-10`}>
                                         {item.title3}
                                     </h1>
                                 </div>
