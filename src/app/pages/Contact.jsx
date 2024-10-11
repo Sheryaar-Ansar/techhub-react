@@ -55,9 +55,9 @@ const Contact = () => {
     <div className={`${mode ? 'bg-gray-900' : 'bg-gray-200'}`}>
       <div className='min-h-screen mx-auto mt-[70px] pt-[100px]'>
         <div className='flex justify-center items-center'>
-          <div className={`border-none md:border-none md:border md:border-gray-200 px-0 py-0 md:px-6 md:py-12 lg:px-12 lg:py-24 md:rounded-lg`}>
+          <div className={`border-opacity-0 md:border-opacity-100 md:border md:border-gray-300 px-0 py-0 md:px-6 md:py-12 lg:px-12 lg:py-24 md:rounded-lg`}>
             <h1 className='text-2xl uppercase'>Contact Us</h1>
-            <hr className='my-2' />
+            <hr className='my-2 bg-gray-300 h-1' />
             <div className='mt-3'>
               <form onSubmit={handleSubmit}>
                 <div className='flex flex-col md:flex-row'>

@@ -25,7 +25,7 @@ const Cart = () => {
 
     return (
         <div>
-            <div className={`fixed top-0 right-0 w-full md:w-[400px] ${mode ? 'bg-black text-white' : 'bg-white text-black'} h-full transition-all duration-300 ${active ? 'translate-x-0' : 'translate-x-full'} z-50`}>
+            <div className={`fixed top-0 right-0 w-full md:w-[400px] ${mode ? 'bg-gray-900 text-white' : 'bg-gray-200 text-black'} h-full transition-all duration-300 ${active ? 'translate-x-0' : 'translate-x-full'} z-50 border rounded-md ${!mode && 'border-gray-300'}`}>
                 <div className='flex justify-between items-center p-3'>
                     <span className='text-xl uppercase'>Cart</span>
                     <IoMdClose onClick={() => dispatch(cartSlider())} className='border-2 border-gray-600 text-gray-600 font-bold p-1 text-xl rounded-md hover:text-red-600 hover:border-red-600 cursor-pointer' />
@@ -46,14 +46,14 @@ const Cart = () => {
                     })}
                 </div>
                 {cartItems.length > 0 && (
-                    <div className={`h-[30%] bg-black ${!mode ? 'bg-white text-black' : 'bg-black text-white'} px-4`}>
+                    <div className={`h-[30%] bg-black ${!mode ? 'bg-gray-200 text-black' : 'bg-gray-900 text-white'} px-4`}>
                         <div>
                             <div>
                                 <h1 className='text-xl font-semibold'>Items: <span className='text-[#767676] text-[16px]'>{totalItems}</span></h1>
                                 <h1 className='text-xl font-semibold'>Total Amount: <span className='text-[#767676] text-[16px]'>{total} -/PKR</span></h1>
                             </div>
-                            <hr className='py-3'/>
-                            <button onClick={handleCheckout} className='w-full text-xl font-normal h-9 bg-green-500 rounded-md cursor-pointer hover:shadow-green-700 hover:shadow-md transition-shadow duration-200'>Checkout</button>
+                            <hr className={`my-1 h-1 w-full ${mode ? 'bg-gray-800' : 'bg-gray-300'} border-0`} />
+                            <button onClick={handleCheckout} className='mt-4 w-full text-xl font-normal h-9 bg-green-500 rounded-md cursor-pointer hover:shadow-green-700 hover:shadow-md transition-shadow duration-200'>Checkout</button>
                         </div>
                     </div>
                 )}

@@ -28,7 +28,7 @@ const ItemListing = ({ img, name, price, id, handleToast }) => {
         <div className=''>
           <img src={img} alt={name} className='w-[300px] h-[300px] rounded-t-lg' />
         </div>
-        <div className={`w-full absolute -bottom-[130px] h-32 py-2 right-0 ${!mode ? 'bg-white' : 'bg-black'} group-hover:bottom-[0px] transition-all duration-500 hover:opacity-100`}>
+        <div className={`w-full absolute -bottom-[130px] h-32 py-2 right-0 ${!mode ? 'bg-white' : 'bg-gray-900'} group-hover:bottom-[0px] transition-all duration-500 hover:opacity-100`}>
           <ul className='h-full w-full flex flex-col items-end justify-center gap-2'>
             <li onClick={handleAddToCart} className={`flex justify-end items-center pl-3 cursor-pointer border-b-2 w-full ${!mode ? 'text-gray-300 hover:border-black hover:text-black' : 'text-gray-500 border-gray-500 hover:border-white hover:text-white'} transition-colors ease-linear`}>Add to Cart <IoIosCart className='mx-3' /></li>
             <li onClick={handleViewDetail} className={`flex justify-end items-center pl-3 cursor-pointer border-b-2 w-full ${!mode ? 'text-gray-300 hover:border-black hover:text-black' : 'text-gray-500 border-gray-500 hover:border-white hover:text-white'} transition-colors ease-linear`}>View Details <ImEye className='mx-3' /></li>

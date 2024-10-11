@@ -12,6 +12,7 @@ import logo from '../../../assets/logo.png.png'
 const Navbar = () => {
   const dispatch = useDispatch()
   const mode = useSelector((state)=>state.mode.mode)
+  const cartItems = useSelector((state)=>state.cart)
   const [active, setActive] = useState(false)
   const handleNavActive = () => {
     setActive(!active)
@@ -44,7 +45,7 @@ const Navbar = () => {
         </div>
         <div className='flex justify-center items-center'>
           <Toggle/>
-          <CiShoppingCart className='text-3xl cursor-pointer ml-5' onClick={()=>dispatch(cartSlider())}/>
+          <h1 className='flex cursor-pointer' onClick={()=>dispatch(cartSlider())}><CiShoppingCart className='text-3xl ml-5'/><span className='bg-green-300 rounded-full h-5 w-5 flex justify-center items-center text-sm -ml-3 font-medium'>{cartItems.length}</span> </h1>
           <button onClick={handleNavActive} className='flex md:hidden ml-3'>{active ? <FaTimes className='text-xl'/> : <CiMenuBurger className='text-xl'/>}</button>
         </div>
       </div>
