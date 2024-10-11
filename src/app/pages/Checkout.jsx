@@ -4,6 +4,7 @@ import { IoIosArrowForward } from 'react-icons/io'
 import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { addDetails} from '../redux/features/orderSlices'
+import { useAuth } from '../context/AuthContext'
 
 const Checkout = () => {
     const mode = useSelector((state) => state.mode.mode)
@@ -24,6 +25,8 @@ const Checkout = () => {
 
     const totalPrice = cartItems.reduce((total, item) => total + item.qty * item.price, 0)
 
+    const {orderPlace} = useAuth()
+
     const handleBillingExpand = () => {
         setBillingExpand(!billingExpand)
     }
@@ -36,6 +39,7 @@ const Checkout = () => {
     const handleOrderPlacement =(e) => {
         e.preventDefault()
         dispatch(addDetails({name: name, email: email, address: address, city: city, gateway: pay}))
+        orderPlace()
         navigate('/order-placement')
     }
     
