@@ -10,12 +10,12 @@ const OrderPlacement = () => {
   const mode = useSelector((state) => state.mode.mode);
 
   const dispatch = useDispatch();
-  const [showDetails, setShowDetails] = useState(true);
+  const [showMsg, setShowMsg] = useState(true);
 
   const clearInfo = () => {
     dispatch(clearCart())
     dispatch(removeDetails())
-    setShowDetails(false)
+    setShowMsg(false)
   }
 
   useEffect(() => {
@@ -23,7 +23,7 @@ const OrderPlacement = () => {
     return () => clearTimeout(timeOut);
   }, []);
 
-  if (!showDetails) {
+  if (!showMsg) {
     return (
       <div className={`mt-[70px] pt-[100px] flex justify-center items-center min-h-screen ${mode ? 'bg-gray-900' : 'bg-gray-200'}`}>
         <div className="border px-6 py-10 rounded-lg shadow-md">
