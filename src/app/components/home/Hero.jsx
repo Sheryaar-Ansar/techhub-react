@@ -11,8 +11,8 @@ const Hero = () => {
     const navigate = useNavigate()
 
     const nextSlide = () => {
-        setCurrentSlide((prevSlide) =>
-            prevSlide === HeroData.length - 1 ? 0 : prevSlide + 1
+        setCurrentSlide((nextSlide) =>
+            nextSlide === HeroData.length - 1 ? 0 : prevSlide + 1
         )
     }
 

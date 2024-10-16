@@ -17,6 +17,8 @@ export const cartSlices = createSlice({
                 updatedCart = state.map((item)=>item.id === action.payload.id ? {...item, qty: item.qty + 1} : item)
             }else{
                 updatedCart = [...state, action.payload]
+                // console.log('action: ', action.payload, 'state: ', state);
+                
             }
             localStorage.setItem('cartArr', JSON.stringify(updatedCart))
             return updatedCart
