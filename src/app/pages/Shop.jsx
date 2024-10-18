@@ -3,7 +3,6 @@ import ItemListing from '../components/shop/ItemListing';
 import { data } from '../data'
 import CategoryList from '../components/shop/CategoryList';
 import { useDispatch, useSelector } from 'react-redux';
-import Pagination from '../components/shop/Pagination';
 import { setCurrentPage, setItemsPerPage, setNextPage } from '../redux/features/paginationSlices';
 import PriceRange from '../components/shop/PriceRange';
 import toast, { Toaster } from 'react-hot-toast';
